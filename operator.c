@@ -12,6 +12,18 @@ int main()
     f = b / a ;
     g = b % a ;
     h = ( a + b ) / 2 ;
+    printf("The sum of two numbers are = %d \n" , c ) ;
+
+    printf("The sub of two numbers are = %d \n" , d ) ;
+
+    printf("The muntiplication of two numbers are = %d \n" , e ) ;
+
+    printf("The division of two numbers are = %d \n" , f ) ;
+
+    printf("The remainder of two numbers are = %d \n" , g ) ;
+
+    printf("The average of two numbers are = %d \n" , h ) ;
+
 
 
 
