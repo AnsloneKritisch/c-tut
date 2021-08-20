@@ -1,4 +1,4 @@
-// WAP using c - operators
+// WAP using c - operators to add , substract , muntiply and divide 
 
 #include <stdio.h>
 #include <conio.h>
@@ -24,8 +24,7 @@ int main()
 
     printf("The average of two numbers are = %d \n" , h ) ;
 
-
-
-
+    getch() ;
+    
     return 0;
 }
