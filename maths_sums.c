@@ -55,6 +55,14 @@ int main1()
 
 // WAP Area of a Isoseles Triangle 
 
+/*
+
+#include <math.h> is mainly used to include some functions such a sqrt other mathematical
+function etc..
+
+*/
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
