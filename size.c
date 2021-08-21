@@ -7,13 +7,14 @@ int main()
 {
     int a = 1 ;
     float b = 1.0 ;
-    char c = 'A'
+    char c = 'A' ;
 
-    printf(" The space occupied by integer = %d", sizeof(a)) ;
-    printf(" The space occupied by float = %f", sizeof(b)) ;
-    printf(" The space occupied by string = %s", sizeof(c)) ;
+    printf(" The space occupied by integer = %d \n ", sizeof(a)) ;
+    printf(" The space occupied by string = %s \n ", sizeof(c)) ;
+    printf(" The space occupied by float = %f \n", sizeof(b)) ;
+    
 
-    getch()
+    getch() ; 
     
 
     return 0;
