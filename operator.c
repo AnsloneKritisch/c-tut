@@ -12,6 +12,7 @@ int main()
     f = b / a ;
     g = b % a ;
     h = ( a + b ) / 2 ;
+    
     printf("The sum of two numbers are = %d \n" , c ) ;
 
     printf("The sub of two numbers are = %d \n" , d ) ;

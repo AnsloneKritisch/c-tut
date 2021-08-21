@@ -12,6 +12,7 @@ int main()
     printf( " The value of a = %d \n " , a) ;
     printf( " The value of b = %d \n " , b) ;
 
+    getch()
 
     return 0;
 }

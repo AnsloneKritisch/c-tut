@@ -70,8 +70,10 @@ function etc..
 int main()
 {
     float a = 10.0 , b = 20.0 , c = 30.0 , semi ,  area ;
+
     semi = (a+b+c)/2.0 ;
     printf(" The semi value = %f \n " , semi ) ;
+
     area = sqrt(semi*(semi-a)*(semi-b)*(semi-c)) ;
     printf(" The area of the isoseles triangle is = %f \n" , area ) ;
 

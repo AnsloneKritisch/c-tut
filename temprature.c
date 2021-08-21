@@ -12,11 +12,15 @@ int main()
     far = (con * 9) / 5 + 32 ;
     printf( " The temprature in farenhite = %f \n ", far ) ;
     
+    getch()
+
     // Conversion from Farhanite to Centigrade
 
     float fara = 99.2 , cona ;
     cona = ((fara-32)*5)/9 ;
     printf(" The tempratue in centigrade = %f \n " ,cona ) ;
+
+    getch()
     
     return 0;
 
