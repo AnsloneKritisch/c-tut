@@ -5,6 +5,7 @@ These are mainly used with
  for string  -> %s
 
 */
+
 //WAP to find out the area of a circle ( use float values only )
 
 #include <stdio.h>
@@ -33,7 +34,7 @@ int main()
     return 0;
 }
 
-/*
+
 // WAP to find area of Rectangle
 
 #include <stdio.h>
@@ -50,4 +51,23 @@ int main1()
 
     return 0;
 }
- */
+ 
+
+// WAP Area of a Isoseles Triangle 
+
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+int main()
+{
+    float a = 10.0 , b = 20.0 , c = 30.0 , semi ,  area ;
+    semi = (a+b+c)/2.0 ;
+    printf(" The semi value = %f \n " , semi ) ;
+    area = sqrt(semi*(semi-a)*(semi-b)*(semi-c)) ;
+    printf(" The area of the isoseles triangle is = %f \n" , area ) ;
+
+    getch () ;
+       
+    return 0;
+}
