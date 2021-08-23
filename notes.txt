@@ -1,0 +1,28 @@
+Some important Points to remember :-
+
+1.  # include function mainly works as import function and import modules 
+    like stdio.h and conio.h into the programs .
+
+2.  stdio.h and Conio.h are like libraries which are mainly use to
+    import the function like printf and getch() .
+
+3.  The function which can be import under stdio.h are :-
+
+
+    sl_no. -> Function -> use of the function
+    1 -> printf() - It is used to print the strings, integer, character etc on the output screen.
+    2 -> scanf() - It reads the character, string, integer etc from the keyboard.
+    3 -> getc() - It reads the character from the file.
+    4 -> putc() - It writes the character to the file.
+    5 -> fopen() - It opens the file and all file handling functions are defined in stdio.h header file.
+    6 -> fclose() - It closes the opened file.
+    7 -> remove() - It deletes the file.
+    8 -> fflush() - It flushes the file.
+
+4.  The function which can be import under conio.h are :-
+    Functions 	Description
+clrscr( ) 	used to clear the output screen
+getch() 	It reads character from the keyboard
+getche() 	reads character from keyboard and echoes to o/p screen
+textcolor() 	used to change the text color
+textbackground() 	used to change text background
