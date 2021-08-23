@@ -20,9 +20,12 @@ Some important Points to remember :-
     8 -> fflush() - It flushes the file.
 
 4.  The function which can be import under conio.h are :-
-    Functions 	Description
-clrscr( ) 	used to clear the output screen
-getch() 	It reads character from the keyboard
-getche() 	reads character from keyboard and echoes to o/p screen
-textcolor() 	used to change the text color
-textbackground() 	used to change text background
+    
+    sl.no. ->  Functions -> Description
+    1 -> clrscr( ) -> used to clear the output screen
+    2 -> getch() ->	It reads character from the keyboard
+    3 -> getche() -> reads character from keyboard and echoes to o/p screen
+    4 -> textcolor() -> used to change the text color
+    5 -> textbackground() -> used to change text background
+
+5. If u want to get the a.exe in another name. Then you maninly
