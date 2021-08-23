@@ -1,21 +1,29 @@
+// WAP To take input and do different operations :
+
 #include <stdio.h>
 #include <conio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-    
-    int a , b ,c ;
+    int a , b , c , d , e ;
 
-    printf(" Enter number a ") ;
+    printf(" Enter the big number = ") ;
     scanf("%d" , &a ) ;
 
-    printf(" Enter number b ") ;
+    printf(" Enter the small number = ") ;
     scanf("%d" , &b ) ;
 
     c = a + b ;
-    printf( " The addision of two given no's are -> %d" , c ) ;
+    printf( " The sum of two given no's are -> %d" , c ) ;
+
+    d = b - a ;
+    printf(" The difference between two no's are -> %d " , d ) ;
+
+    e = b % a ;
+    printf(" The divide between two no is = " , e ) ;
     
 
-    
+    getch() ;
+            
     return 0;
 }
