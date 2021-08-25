@@ -5,12 +5,12 @@
 
 int main()
 {
-    int a , b , c , d , e ;
+    int a , b , c , d ;
 
-    printf(" Enter the big number = \n " ) ;
+    printf(" Enter the big number =  " ) ;
     scanf("%d" , &a ) ;
 
-    printf(" Enter the small number = \n ") ;
+    printf(" Enter the small number =  ") ;
     scanf("%d" , &b ) ;
 
     c = a + b ;
@@ -18,10 +18,6 @@ int main()
 
     d = b - a ;
     printf(" The difference between two no's are -> %d \n " , d ) ;
-
-    e = b % a ;
-    printf(" The divide between two no is = \n " , e ) ;
-
 
     getch() ;
             
