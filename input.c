@@ -1,4 +1,13 @@
 // WAP To take input and do different operations :
+/* 
+For a int value scanf("%d") 
+For a float value scanf("%f") 
+For a string value scanf("%s")
+
+scanf("%f" , &a ) 
+In the above sentence "a" is a variable in which all data is stored 
+"&" -> works as an adress of the operators 
+*/
 
 #include <stdio.h>
 #include <conio.h>
@@ -23,3 +32,4 @@ int main()
             
     return 0;
 }
+

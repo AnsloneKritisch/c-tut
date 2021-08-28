@@ -28,4 +28,4 @@ Some important Points to remember :-
     4 -> textcolor() -> used to change the text color
     5 -> textbackground() -> used to change text background
 
-5. If u want to get the a.exe in another name. Then you maninly
+5. If u want to get the a.exe in another name. Then you maninly write 
