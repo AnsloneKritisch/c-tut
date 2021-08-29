@@ -15,7 +15,10 @@ int main()
     {
         printf(" Yes a > b ")
     }
-    
+    else
+    printf(" No b > a ") ;
+
+    getch() ;
 
     return 0;
 }
