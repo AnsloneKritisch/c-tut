@@ -13,7 +13,7 @@ int main()
 
     if ( a > b)
     {
-        printf(" Yes a > b ")
+        printf(" Yes a > b ") ;
     }
     else
     printf(" No b > a ") ;
