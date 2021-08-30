@@ -10,7 +10,7 @@ int main()
     printf("write your age = ") ;
     scanf("%d" , &a ) ;
 
-    if (a > 18)
+    if (a >= 18)
     {
         printf(" You can give vote \n ") ;
     }
