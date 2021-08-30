@@ -1,4 +1,4 @@
-// Basic program of using if and else statment 
+// Basic format and program of using if and else statment 
 // WAP to find which number is Bigger 
 
 #include <stdio.h>

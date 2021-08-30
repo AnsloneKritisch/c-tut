@@ -29,3 +29,5 @@ Some important Points to remember :-
     5 -> textbackground() -> used to change text background
 
 5. If u want to get the a.exe in another name. Then you maninly write 
+
+6.
