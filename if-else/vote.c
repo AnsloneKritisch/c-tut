@@ -8,14 +8,14 @@ int main()
     int a ;
 
     printf("write your age = ") ;
-    scanf("%d" , a ) ;
+    scanf("%d" , &a ) ;
 
     if (a > 18)
     {
         printf(" You can give vote \n ") ;
     }
     else 
-    printf(" You can't give vote \n ") ;
+    printf(" You cannot give vote \n ") ;
 
     getch() ;
     
