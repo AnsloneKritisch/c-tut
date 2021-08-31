@@ -7,15 +7,15 @@ int main()
 {
     int a ;
 
-    printf(" Write the year ") ;
+    printf(" Write the year = ") ;
     scanf( "%d" , &a ) ;
 
     if ( a % 400 == 0 )
     {
-        printf(" It is a Leap Year ") ;
+        printf(" It is a Leap Year \n ") ;
     }
     else
-    printf(" It is not a Leap Year ") ;
+    printf(" It is not a Leap Year \n ") ;
 
     getch() ;
        
