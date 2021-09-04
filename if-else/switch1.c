@@ -8,25 +8,25 @@ int main()
     int a ;
 
     printf(" Choose a number between 1 to 3 . \n I will tell how is going to be next day .") ;
-    printf("Write a number") ;
+    printf("Write a number = ") ;
     scanf("%f" , &a ) ;
 
     switch (a)
     {
-    case 1 :
+    case +1 :
     printf(" Have a nice day ") ;
     break;
     
     case 2 :
-    printf(" Have a normal day ") ;
+    printf(" Have a normal day \n ") ;
     break;
     
     case 3 :
-    printf(" Have a bad day ") ;
+    printf(" Have a bad day \n ") ;
     break;
     
     default:
-    printf(" You Thought a number out of the box ") ;
+    printf(" You Thought a number out of the box \n ") ;
     break;
     }
 
