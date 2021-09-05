@@ -5,15 +5,15 @@
 
 int main()
 {
-    int a ;
+    int a = 1 ;
 
-    printf(" Choose a number between 1 to 3 . \n I will tell how is going to be next day .") ;
-    printf("Write a number = ") ;
-    scanf("%f" , &a ) ;
+ //   printf(" Choose a number between 1 to 3 . \n I will tell how is going to be next day .") ;
+   // printf("Write a number = ") ;
+    //scanf("%f" , &a ) ;
 
     switch (a)
     {
-    case +1 :
+    case 1 :
     printf(" Have a nice day ") ;
     break;
     
