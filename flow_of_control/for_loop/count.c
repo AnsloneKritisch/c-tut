@@ -1,21 +1,19 @@
-// WAP to write a program for counting in range both accending and decending order .
+// WAP to write a program to print numbers from 1 to 10 both accending and decending order .
 
 #include <stdio.h>
 #include <conio.h>
-
-int main()
+ 
+int main() 
 {
-    int i , a ;
+  int i , a ;
 
-    printf("Enter a range") ;
-    scanf("%d" , &a ) ;
+  printf(" Write a range ") ;
+  scanf("%d" , &a ) ;
 
-    for ( i = 1 ; i == a ; i++ ) ;
-    {
-        printf("%d" , i ) ;
-    }
-
-    getch() ;
+  for (i = 1; i <= a ; ++i )
+  {
+    printf("%d \n ", i);
+  }
+  return 0;
     
-    return 0;
 }
