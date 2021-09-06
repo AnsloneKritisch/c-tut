@@ -3,11 +3,18 @@
  
 int main() 
 {
-    float fara  , cona ;
-    printf("write the temprature = ") ;
-    scanf("%f" ,&fara) ;
-    cona = ((fara-32)*5)/9 ;
-    printf(" The tempratue in centigrade = %f \n " ,cona ) ;
+    int i , a , b ;
+
+  printf(" Write a starting range = ") ;
+  scanf("%d" , &a ) ;
+
+  printf(" Write the ending range =  ") ;
+  scanf("%d" , &b) ;
+
+  for ( i = a ; i >= b ; i-- )
+  {
+      printf("%d \n " , i ) ; 
+  }
 
   getch() ; 
 
