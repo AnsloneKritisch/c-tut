@@ -5,7 +5,7 @@
  
 int main() 
 {
-  int i , a ;
+  int i , a , b ;
 
   printf(" Write a range ") ;
   scanf("%d" , &a ) ;
@@ -14,6 +14,9 @@ int main()
   {
     printf("%d \n ", i);
   }
+
+  getch() ; 
+
   return 0;
     
 }
