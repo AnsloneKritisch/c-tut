@@ -1,4 +1,4 @@
-// WAP to write a program to print numbers from 1 to 10 both accending and decending order .
+// WAP to write a program to print numbers from starting range to ending in accending order .
 
 #include <stdio.h>
 #include <conio.h>
@@ -7,15 +7,45 @@ int main()
 {
   int i , a , b ;
 
-  printf(" Write a range ") ;
-  scanf("%d" , &a ) ;
+  printf("write the starting range = ") ;
+  scanf("%d" , &b ) ;
 
-  for (i = 1; i <= a ; ++i )
+  printf(" Write the ending range = ") ;
+  scanf("%d" , &a ) ;
+    
+  for (i = b; i <= a ; ++i )
   {
     printf("%d \n ", i);
   }
 
   getch() ; 
+
+  return 0;
+    
+}
+
+
+// WAP to write a program to print numbers from starting range to ending in decending order .
+
+#include <stdio.h>
+#include <conio.h>
+ 
+int main() 
+{
+    int i , a , b ;
+
+  printf(" Write a starting range = ") ;
+  scanf("%d" , &a ) ;
+
+  printf(" Write the ending range =  ") ;
+  scanf("%d" , &b) ;
+
+  for ( i = a ; i >= b ; i-- )
+  {
+      printf("%d \n " , i ) ; 
+  }
+
+ getch() ; 
 
   return 0;
     
