@@ -12,7 +12,6 @@ int main()
 
     for ( i = 1 ; i <= a ; i++)
     {
-        printf("%d", i ) ;
         if (a%i == 0)
         {
             ++c ;
@@ -21,11 +20,12 @@ int main()
     }
     if (c==2)
     {
-        printf(" Print %d is a prime no. " , a ) ;
+        printf(" Print %d is a prime no. \n  " , a ) ;
+    }
+    else
+    {
+        printf(" %d is not a prime no. \n " , a) ;
     }
 
-    
-    
-    
     return 0;
 }
