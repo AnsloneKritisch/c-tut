@@ -10,10 +10,11 @@ int main()
     printf("Write a number : ");
     scanf("%d",&a);
 
-    for ( i = 1 ; i == a ; i++)
+    for ( i = 1 ; i <= a ; ++i)
     {
-        printf("%d",&i) ;
+        printf("%d \n ", &i ) ;
     }
+    
     
 
 
