@@ -1,4 +1,4 @@
-// WAP a program to find a number is prime no. or not 
+// WAP a program to find a number is prime no. or not : 
 
 #include <stdio.h>
 #include <conio.h>
