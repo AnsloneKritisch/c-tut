@@ -2,26 +2,24 @@
 
 #include <stdio.h>
 #include <conio.h>
-
-int main()
+ 
+int main() 
 {
-    int a , i ;
+  int i , a ;
 
-    printf("Write a number : ");
-    scanf("%d",&a);
-
-    for ( i = 1 ; i <= a ; ++i)
+  printf(" Write the number : ") ;
+  scanf("%d" , &a ) ;
+    
+  for (i = 1 ; i <= a ; ++i )
+  {
+    if (a%i == 0)
     {
-        printf("%d \n ", &i ) ;
-    }
+        printf("%d \n " , i ) ;
+    }    
+  }
+
+  getch() ; 
+
+  return 0;
     
-    
-
-
-
-
-
-
-
-    return 0;
 }
