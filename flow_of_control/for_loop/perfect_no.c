@@ -1,4 +1,4 @@
-// Perfect no. is a no. whose factor sum is a 2*the no.
+// Perfect no. is a no. whose factor sum is equal to 2*the no.
 // example ->  6 =1,2,3,6 =1+2+3+6=12,-> 6*2=12
 // WAP to find a number is perfect or not .
 
