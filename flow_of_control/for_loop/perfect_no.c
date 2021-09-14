@@ -7,14 +7,14 @@
 
 int main()
 {
-    int a ;
+    int a , i ;
 
     printf(" Write the no. = ");
     scanf("%d" , &a );
 
-    for (size_t i = 0; i < count; i++)
+    for ( i = 1; i <= a ; i++)
     {
-        /* code */
+        printf("%d",i) ;
     }
     
     
