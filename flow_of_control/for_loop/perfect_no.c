@@ -7,18 +7,30 @@
 
 int main()
 {
-    int a , i ;
+    int a , i , j=0 , b ;
 
     printf(" Write the no. = ");
     scanf("%d" , &a );
 
     for ( i = 1; i <= a ; i++)
     {
-        printf("%d",i) ;
+        if (a%i==0)
+        {
+            j=j+i ;
+        }
+                
     }
     
+    b = a*2 ;
+
+    if ( j == b)
+    {
+        printf(" %d is a Perfect Number \n ", a );
+    }
+    else printf(" %d is not a Perfect Number \n ", a );
+
+    getch();
+
     return 0;
-    
+      
 }
-
-
