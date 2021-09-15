@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b , i ;
+    int a , b , i , j , c=0;
 
     printf(" Write the starting range : ");
     scanf("%d",&a);
@@ -15,9 +15,20 @@ int main()
 
     for ( i = a; i <= b ; i++)
     {
-        printf(" %d \n ", i );
-        
+        c = 0 ;
+        for ( j = 1 ; j <= i ; j++)
+        {
+            if (i%j==0)
+            c++;
+        }        
     }
+
+
+    if (c == i*2)
+    {
+        printf("%d",i);
+    }
+    
     
 
 
