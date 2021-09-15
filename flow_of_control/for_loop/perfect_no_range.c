@@ -19,14 +19,14 @@ int main()
         for ( j = 1 ; j <= i ; j++)
         {
             if (i%j==0)
-            c++;
+            c = c+j ; 
         }        
     }
 
 
     if (c == i*2)
     {
-        printf("%d",i);
+        printf("%d \n \a ",i);
     }
     
     
