@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , rev , r , p ;
+    int a , rev=0 , r , p ;
 
     printf("Enter a number : ");
     scanf("%d",&a);
@@ -17,13 +17,8 @@ int main()
         a = a/10 ;
     }
 
-    printf("The reverse of a number %d",rev);
-
-    
-    
-    
-    
-    
+    printf("Reversed number : %d \n ",rev);
+        
     getch();
 
     return 0;
