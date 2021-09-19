@@ -29,13 +29,7 @@ int main()
         printf("%d \n \a ",i);
     }
     
-    
-
-
-
     getch();
-
-    
     
     return 0;
 }
