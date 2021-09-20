@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , p , r , amg ;
+    int a , p , r , amg=0;
 
     printf("Enter the number :");
     scanf("%d",&a);
@@ -32,5 +32,5 @@ int main()
     getch();
        
     return 0;
-    
+
 }
