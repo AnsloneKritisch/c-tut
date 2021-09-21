@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b , i , j , r , amg=0 ;
+    int a , b , i , j , r , amg;
 
     printf("Enter the Starting range : ");
     scanf("%d",&a);
@@ -13,10 +13,12 @@ int main()
     printf("Enter the Ending range : ");
     scanf("%d",&b);
 
-    for (i = a ; i >= b , i++)
+    printf("All the Amstrong Number in the given range is : ") ;
+
+    for (i = a ; i <= b ; i++) 
     {
         amg = 0 ;
-
+        j = i ;
         for (; j>0 ;)
         {
             r = j % 10 ;
@@ -26,12 +28,9 @@ int main()
 
         if ( amg == i)
         {
-            printf("yes %d is an Amgstrong Number. ",i);
+            printf(" \n %d  ",i);
         }
-        else
-        {
-            printf("NO %d is not an Amgstrong Number.",i);
-        }
+
     }
     
     getch();
