@@ -8,9 +8,9 @@ int main()
     printf("Write the no : ");
     scanf("%d",&a);
 
-    for ( i = 1 ; a <= i ; i--)
+    for ( i = a ; i >= 1 ; i--)
     {
-        printf("%d \n ",i)
+        printf("%d \n ",i);
     }
     
     
