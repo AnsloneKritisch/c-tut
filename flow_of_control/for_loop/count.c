@@ -40,12 +40,12 @@ int main()
   printf(" Write the ending range =  ") ;
   scanf("%d" , &b) ;
 
-  for ( i = a ; i >= b ; i-- )
+  for ( i = b ; i >= a ; i-- )
   {
       printf("%d \n " , i ) ; 
   }
 
- getch() ; 
+  getch() ; 
 
   return 0;
     
