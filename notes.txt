@@ -30,4 +30,52 @@ Some important Points to remember :-
 
 5. If u want to get the a.exe in another name. Then you maninly write gcc main.c -o nameyouwanttogive
 
-6.
+6. There are total 4 types of data input types in C :
+    1 -> int 
+    2 -> float 
+    3 -> character
+    4 -> double 
+
+7. All escape sequence are :
+    new line -> \n 
+    long space -> \t
+    alert sound -> \a 
+
+8. Format Specifier :
+   %d  -> integer 
+   %f -> float 
+   %c -> character 
+   %s -> string 
+
+9. There are Two types of comment :-
+   Single comment line -> // 
+   Muntiple Comment line -> /*  */
+
+10. Arithmatic Operators :-
+    + -> Addition 
+    - -> Substraction 
+    * -> Muntiplication 
+    / -> quotient 
+    % -> remainder
+
+11. ASCII -> American Standard Code for Information and Interchange 
+    alphabets  ->  ASCII
+    A - Z      -> 65 to 90
+    a - z      -> 97 to 122
+    0 - 9      -> 48 to 57 
+
+12. The Data type in C - programs are :-
+      1) Basic Date Type 
+      2) Derived Data Type 
+      3) Emumeration Data Type 
+      4) Void Data Type 
+
+13. The Derived data types are :-
+       1) arrays 
+       2) pointer 
+       3) structure 
+       4) Union 
+
+14. Emumeration data type -> enum 
+
+15. Void data type -> void 
