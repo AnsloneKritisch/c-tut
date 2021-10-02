@@ -1,21 +1,3 @@
-// WAP to draw a pattern .
-/*
-
-
-*
-**
-***
-****
-*****
-******
-*******
-********
-*********
-**********
-
-
-*/
-
 #include <stdio.h>
 #include <conio.h>
 
@@ -30,7 +12,7 @@ int main()
     {
         for ( j = 1; j <= i; j++)
         {
-            printf("*");
+            printf("i");
         }
 
         printf("\n");
