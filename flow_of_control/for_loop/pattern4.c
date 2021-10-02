@@ -1,16 +1,16 @@
 //WAP to draw a pattern .
 /*
 
-1
-22
-333
-4444
-55555
-666666
-7777777
-88888888
-999999999
-10101010101010101010
+         *
+        **
+       ***
+      ****
+     *****
+    ******
+   *******
+  ********
+ *********
+**********
 
 */
 
@@ -19,16 +19,21 @@
 
 int main()
 {
-    int a , i , j ;
+    int a , i , j , k ;
 
-    printf("Enter the number : ") ;
+    printf("Enter the number of pattern : ") ;
     scanf("%d", &a) ;
 
     for (i = 1; i <= a; i++)
     {
-        for ( j = 1; j <= i; j++)
+        for ( j = 1; j <= a-i ; j++)
         {
-            printf("%d",i);
+            printf(" ");
+        }
+
+        for ( k = 1; k <= i ; k++)
+        {
+            printf("*") ;
         }
 
         printf("\n");
