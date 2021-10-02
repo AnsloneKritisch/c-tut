@@ -1,3 +1,19 @@
+//WAP to draw a pattern .
+/*
+
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+10101010101010101010
+
+*/
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -12,7 +28,7 @@ int main()
     {
         for ( j = 1; j <= i; j++)
         {
-            printf("i");
+            printf("%d",i);
         }
 
         printf("\n");
