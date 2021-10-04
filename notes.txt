@@ -79,3 +79,9 @@ Some important Points to remember :-
 14. Emumeration data type -> enum 
 
 15. Void data type -> void 
+
+16. Break Statment are mainly stops the process if the condition is satisfied .
+
+17. Continue Statment is used to continue the loop except the condition part .
+
+18. 

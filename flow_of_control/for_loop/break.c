@@ -1,4 +1,4 @@
-//WAP to use break and continue function.
+//WAP to use break function.
 
 #include <stdio.h>
 #include <conio.h>
@@ -17,7 +17,7 @@ int main()
             break ;
         }
 
-        else printf(" %d \n ",i) ;
+        else printf(" %d  \n ", i) ;
         
     }
 
