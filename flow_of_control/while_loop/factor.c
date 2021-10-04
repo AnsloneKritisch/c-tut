@@ -1,4 +1,4 @@
-//WAP a program to find factor using do-loop .
+//WAP a program to find factor using while-loop .
 
 #include <stdio.h>
 #include <conio.h>
@@ -22,5 +22,5 @@ int main()
     getch() ;  
     
     return 0;
-    
+
 }
