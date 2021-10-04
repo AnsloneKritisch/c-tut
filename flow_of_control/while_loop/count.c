@@ -1,3 +1,4 @@
+
 //WAP to count a number in acesnding order.
 
 #include <stdio.h>
@@ -14,7 +15,7 @@ int main()
     scanf("%d",&b) ;
 
     i = a ;
-    
+
     while (i <= b )
     {
         printf("%d \n ",i) ;
@@ -28,4 +29,3 @@ int main()
     return 0;
 
 }
-
