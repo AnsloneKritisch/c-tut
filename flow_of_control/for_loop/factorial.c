@@ -7,7 +7,7 @@ int main()
 {
     int i , a , fact = 1 ;
 
-  printf(" Write a starting range = ") ;
+  printf(" Number of factorial you want to find is : ") ;
   scanf("%d" , &a ) ;
 
   for ( i = a ; i >= 1 ; i-- )
@@ -15,6 +15,7 @@ int main()
       fact = fact * i ;
   }
 
+  printf("The Value of %d! is = ", a ) ;
   printf("%d \n " , fact ) ; 
   
   getch() ;
