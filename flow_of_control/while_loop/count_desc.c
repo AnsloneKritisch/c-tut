@@ -7,15 +7,12 @@ int main()
 {
     int a , b , i ;
 
-    printf("Enter the Starting Range : ") ;
+    printf("Enter the Number : ") ;
     scanf("%d",&a);
-
-    printf("Enter the Ending Range : ");
-    scanf("%d",&b);
 
     i = a ;
 
-    while (i>=b)
+    while (i>=1)
     {
         printf("%d \n ",i);
         i-- ;

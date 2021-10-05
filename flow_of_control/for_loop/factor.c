@@ -1,4 +1,4 @@
-// WAP to find all the factors of a number .
+// WAP to find all the factors of a number using for-loop .
 
 #include <stdio.h>
 #include <conio.h>
@@ -9,6 +9,8 @@ int main()
 
   printf(" Write the number : ") ;
   scanf("%d" , &a ) ;
+
+  printf(" The Factors of %d are : \n ", a ) ;
     
   for (i = 1 ; i <= a ; ++i )
   {
