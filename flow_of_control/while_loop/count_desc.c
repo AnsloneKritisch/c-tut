@@ -5,17 +5,20 @@
 
 int main()
 {
-    int a , i ;
+    int a , b , i ;
 
-    printf("Enter the number : ") ;
+    printf("Enter the Starting Range : ") ;
     scanf("%d",&a);
 
-    i = 1 ;
+    printf("Enter the Ending Range : ");
+    scanf("%d",&b);
 
-    while (i<=a)
+    i = a ;
+
+    while (i>=b)
     {
-        printf("%d",i);
-        i++ ;
+        printf("%d \n ",i);
+        i-- ;
     }
 
     getch();
