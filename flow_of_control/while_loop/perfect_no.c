@@ -18,7 +18,7 @@ int main()
     {
         if (a%i==0)
         {
-            j++ ;
+            j = j+i ;
         }
 
         i++ ;
