@@ -10,8 +10,26 @@ int main()
     printf("Enter the number : ");
     scanf("%d",&a);
 
-    
+    p = a ;
 
+    while (p>0)
+    {
+        r=p%10 ;
+        amg = amg + (r*r*r) ;
+        p = p/10 ;
+    }
+
+    if (amg == a )
+    {
+        printf("Yes %d is an Amstrong number. ",a);
+    }
+    else
+    {
+        printf("No %d is not an Amstrong number. ",a);
+    }
+
+    getch();
+    
     return 0;
 }
 
