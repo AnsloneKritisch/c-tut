@@ -13,22 +13,7 @@ int main()
     printf(" Write the Ending Range : ");
     scanf("%d",&b);
 
-    j = 1 ;
-    i = a ;
-    while (i <= b )
-    {
-        c = 0 ;
-        while (j <= i)
-        {
-            if (i%j==0)
-            {
-                c = c+j ;
-            }
-            j++ ;            
-        }
-
-        i++ ;    
-    }
+    
 
     if (c == i*2 )
     {
