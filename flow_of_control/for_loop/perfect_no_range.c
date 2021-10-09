@@ -5,12 +5,12 @@
 
 int main()
 {
-    int a , b , i , j , c=0;
+    int a , b , i , j , c = 0 ;
 
-    printf(" Write the starting range : ");
+    printf(" Write the Starting range : ");
     scanf("%d",&a);
 
-    printf(" Write the ending range : ");
+    printf(" Write the Ending range : ");
     scanf("%d",&b);
 
     for ( i = a; i <= b ; i++)
@@ -18,7 +18,7 @@ int main()
         c = 0 ;
         for ( j = 1 ; j <= i ; j++)
         {
-            if (i%j==0)
+            if (i%j==0 )
             c = c+j ; 
         }        
     }
@@ -26,7 +26,7 @@ int main()
 
     if (c == i*2)
     {
-        printf("%d \n \a ",i);
+        printf("%d \n ",i);
     }
     
     getch();

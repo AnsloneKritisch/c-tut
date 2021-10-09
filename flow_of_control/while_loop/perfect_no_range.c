@@ -13,12 +13,6 @@ int main()
     printf(" Write the Ending Range : ");
     scanf("%d",&b);
 
-    
-
-    if (c == i*2 )
-    {
-        printf("%d \n ", i );
-    }
 
     getch();
     
