@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b , i , j , c=0 ;
+    int a , b , i , j=1  , c=0 ;
 
     printf(" Write the Starting Range : ");
     scanf("%d",&a);
