@@ -14,6 +14,28 @@ int main()
     scanf("%d",&b);
 
 
+    i = a ;
+    while (i <= b )
+    {
+        c = 0 ;
+        j = 1 ;
+        while (j <= i)
+        {
+            if (i%j==0)
+            {
+                c = c+j ;
+            }
+            j++ ;            
+        }
+
+        i++ ;    
+    }
+
+    if (c == i*2 )
+    {
+        printf("%d \n ", i );
+    }
+
     getch();
     
     return 0;
