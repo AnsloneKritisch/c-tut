@@ -13,6 +13,8 @@ int main()
     printf(" Write the Ending Range : ");
     scanf("%d",&b);
 
+    printf("All the Perfect Number between range %d and %d are : \n ",a,b);
+
 
     i = a ;
     while (i <= b )
@@ -26,18 +28,14 @@ int main()
                 c = c+j ;
             }
             j++ ;            
-        
         }
         
     if (c == i*2 )
     {
         printf("%d \n ", i );
     }
-
-        i++ ; 
-
+    i++ ; 
     }
-
 
     getch();
     
