@@ -13,7 +13,7 @@ int main()
     printf(" Write the Ending range : ");
     scanf("%d",&b);
 
-    printf("\n All the Perfect Number Between the range %d and %d are : \n "a, b) ;
+    printf("\n All the Perfect Number Between the range %d and %d are : \n " , a, b) ;
 
     for ( i = a; i <= b ; i++)
     {
