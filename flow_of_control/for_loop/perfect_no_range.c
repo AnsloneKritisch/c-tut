@@ -20,14 +20,16 @@ int main()
         {
             if (i%j==0 )
             c = c+j ; 
-        }        
-    }
+        }
 
-
+        
     if (c == i*2)
     {
         printf("%d \n ",i);
     }
+        
+    }
+
     
     getch();
     
