@@ -7,18 +7,13 @@
 int main()
 {
     int a , i ;
-   // char b ;
-
+    
     printf(" Write how many times you want to print your number = ");
     scanf( "%d" , &a );
     
-    //printf(" Write your name = ");
-    //scanf( "%s" , &b );
-
     for ( i = 1; i <= a; i++)
     {
-        //printf("%s",b);
-        printf(" A \n ") ;
+        printf("\n Anshu \n") ;
     }
 
     getch() ;

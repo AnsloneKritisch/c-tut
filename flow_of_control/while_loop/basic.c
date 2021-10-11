@@ -7,23 +7,17 @@
 int main()
 {
     int a , i ;
-    char b ;
 
     printf(" Write how many times you want to print your name : ");
     scanf("%d",&a);
 
-    printf(" Enter your Name : ") ;
-    scanf("%s", &b ) ;
-
     i = 1 ;
     while (i <= a)
     {
-        printf(" \n ", b ) ;
-
+        printf("\n Anshu \n");
         i++ ;
-
     }
-
+    
     getch() ;
     
     return 0;
