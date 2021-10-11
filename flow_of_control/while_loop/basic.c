@@ -9,13 +9,16 @@ int main()
     int a , i ;
     char b ;
 
-    print (" Write how many times you want to print your name : ");
+    printf(" Write how many times you want to print your name : ");
     scanf("%d",&a);
+
+    printf(" Enter your Name : ") ;
+    scanf("%s", &b ) ;
 
     i = 1 ;
     while (i <= a)
     {
-        printf(" Anshu \n ") ;
+        printf(" \n ", b ) ;
 
         i++ ;
 
