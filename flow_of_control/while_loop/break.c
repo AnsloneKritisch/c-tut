@@ -5,15 +5,18 @@
 
 int main()
 {
-    int a , i ;
+    int a , b , i ;
 
-    printf("Enter a number : ") ;
+    printf("Enter the number till which you want the loop : ") ;
     scanf("%d",&a);
+
+    printf("Enter the number on which you want to break loop : ");
+    scanf("%d",&b);
 
     i = 1 ;
     while (i <= a)
     {
-        if (i == 5 )
+        if (i == b )
         {
             break ;
         }
