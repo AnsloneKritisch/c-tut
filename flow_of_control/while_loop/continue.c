@@ -17,8 +17,9 @@ int main()
         {
             continue ;
         }
-        else printf(" %d \n ", i ) ;
 
+        else printf(" %d \n ", i ) ;
+        
         i++ ;        
     }
     
