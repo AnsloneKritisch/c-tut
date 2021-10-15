@@ -20,12 +20,14 @@ int main()
     }
     if (c==2)
     {
-        printf(" Print %d is a prime no. \n  " , a ) ;
+        printf("%d is a prime no. \n " , a ) ;
     }
     else
     {
         printf(" %d is not a prime no. \n " , a) ;
     }
+
+    getch();
 
     return 0;
 }
