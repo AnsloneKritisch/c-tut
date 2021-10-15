@@ -24,7 +24,7 @@ int main()
         if(c==2)
 
         {
-            printf("%d",i);
+            printf("THe Largest Prime number in the given range is : %d " , i) ;
             break;
         }
     }
