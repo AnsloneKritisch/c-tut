@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-int main(int argc, char const *argv[])
+int main()
 {
     int sr,er,i,c=0,j;
     printf("Enter The Starting Range:");
