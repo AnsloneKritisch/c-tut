@@ -7,7 +7,7 @@ int main()
 {
     int a , i , c = 0 ;
 
-    printf(" Enter a the no : ") ;
+    printf(" Enter the no : ") ;
     scanf("%d" , &a ) ;
 
     for ( i = 1 ; i <= a ; i++)
