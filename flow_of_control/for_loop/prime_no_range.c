@@ -29,6 +29,7 @@ int main()
             {
                 printf(" %d \n ", i );
             }
+            else printf("%d is not a prime number")
 
         
 
