@@ -8,7 +8,7 @@ int main()
     int a , b[20] , c=0 , i ;
 
     printf("Maximum Number you can take = 20 ");
-    printf("Enter How many number you want to take : ");
+    printf(" \n Enter How many number you want to take : ");
     scanf("%d",&a);
 
     for ( i = 1 ; i <= a ; i++)
