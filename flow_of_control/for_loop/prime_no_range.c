@@ -22,18 +22,13 @@ int main()
 
             if (i % j == 0 )
             {
-                c++ ;
+                c = c + 1 ;
             }
 
             if (c==2)
             {
                 printf(" %d \n ", i );
             }
-            else printf("%d is not a prime number")
-
-        
-
-            
         }
         
     }
