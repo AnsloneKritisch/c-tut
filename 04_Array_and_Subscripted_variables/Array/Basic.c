@@ -12,13 +12,13 @@ int main()
 
     for ( i = 0; i < no ; i++)
     {
-        printf("Enter the %d) number", i+1 ) ;
+        printf("Enter the %d) number : ", i+1 ) ;
         scanf("%d",&a[i]) ;
     }
     printf("The array is : ");
     for ( i = 0; i < no ; i++)
     {
-        printf("%d",a[i]);
+        printf(" \n %d ",a[i]);
     }
     
     getch();
