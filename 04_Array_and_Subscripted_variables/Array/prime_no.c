@@ -7,32 +7,31 @@ int main()
 {
     int a , b[20] , k , i , j , c=0 ;
 
-    printf("\n Total 20 number you can take ");
-    printf("\n How many no.s you want to check :  \n");
+    printf("Total 20 number you can take ");
+    printf("\n How many no.s you want to check : ");
     scanf("%d",&a);
 
     for ( i = 1; i <= a ; i++)
     {
-        printf(" Enter the %d) number : \n");
+        printf(" Enter the %d) number : ", i );
         scanf("%d",&b[i]);
     }
 
     for ( i = 1; i <= a ; i++)
     {
-        k = b[i] ;
         c = 0 ;
 
-        for ( j = 1 ; j <= k ; i++)
+        for ( j = 1 ; j <=b[i]  ; i++)
         {
-            if (k % j == 0)
+            if (b[i] % j == 0)
             {
-                c = c+1 ;
+                c++ ;
             }
             if (c==2)
             {
-                printf("\n %d is a Prime Number \n ", k );
+                printf("\n %d is a Prime Number \n ", b[i]  );
             }
-            else printf("\n %d is not a Prime Number \n ", k)    
+            else printf("\n %d is not a Prime Number \n ", b[i] );    
         }
     }
     getch(); 
