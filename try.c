@@ -10,6 +10,9 @@ int main()
     
     printf("Enter the ending range : ");
     scanf("%d",&b);
+
+    printf("The Prime Numbers in the range %d and %d are : "
+    )
     
     for(i=a; i<=b ; ++i)
     {
@@ -19,11 +22,10 @@ int main()
             if( i % j == 0)
             {
                 count++;
-                break;
             }
         }
         if(count==2)
-        printf("%d", i );
+        printf(" %d \n ", i );
     }
 
     return 0;
