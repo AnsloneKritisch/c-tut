@@ -17,6 +17,8 @@ int main()
         scanf("%d",&b[i]);
     }
 
+    printf("The Prime Numbers are : ");
+    
     for ( i = 1; i <= a ; i++)
     {
         c = 0 ;
@@ -29,9 +31,9 @@ int main()
             }
             if (c==2)
             {
-                printf("\n %d is a Prime Number \n ", b[i]  );
+                printf("%d ; ", b[i]  );
             }
-            else printf("\n %d is not a Prime Number \n ", b[i] );    
+                
         }
     }
     getch(); 
