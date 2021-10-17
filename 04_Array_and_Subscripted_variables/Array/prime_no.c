@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b[20] , k , i , j , c=0 ;
+    int a , b[20] , i , j , c=0 ;
 
     printf("Total 20 number you can take ");
     printf("\n How many no.s you want to check : ");
