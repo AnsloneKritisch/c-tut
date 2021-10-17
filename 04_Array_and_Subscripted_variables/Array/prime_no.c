@@ -21,10 +21,11 @@ int main()
     
     for ( i = 1; i <= a ; i++)
     {
-        c = 0 ;
-
+         c = 0 ;
+         
         for ( j = 1 ; j <=b[i]  ; i++)
         {
+           
             if (b[i] % j == 0)
             {
                 c++ ;
