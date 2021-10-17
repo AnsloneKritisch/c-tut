@@ -31,7 +31,7 @@ int main()
     }
     if(amg == b[i])
     {
-      printf(" %d",b[i]);
+      printf(" %d , ", b[i] );
     }
   }
   
