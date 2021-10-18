@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b , i , j , c=0 ;
+    int a , b , i , j , c ;
 
     printf(" Enter the Starting range : ");
     scanf("%d",&a);
@@ -17,19 +17,18 @@ int main()
     while (i <= b )
     {
         c = 0 ;
-        
         j = 1 ;
         while (j <= i)
         {
             if (i%j == 0)
             {
-                c = c + 1 ;
+                c++;
             }
-            if (c == 2)
-            {
-                printf("%d \n " , i ) ;
-            }
-            j++;
+            j++ ;
+        }
+        if (c == 2)
+        {
+            printf("%d \n " , i ) ;
         }
         i++ ;
     }
