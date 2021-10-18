@@ -13,6 +13,8 @@ int main()
     printf(" Enter the Ending range : ");
     scanf("%d",&b);
 
+    printf("The Prime Numbers in the range %d and %d are : ", a , b );
+
     i = a ;
     while (i <= b )
     {
@@ -28,7 +30,7 @@ int main()
         }
         if (c == 2)
         {
-            printf("%d \n " , i ) ;
+            printf(" %d ; " , i ) ;
         }
         i++ ;
     }
