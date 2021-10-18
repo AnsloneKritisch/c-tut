@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , i , b , c = 0 ,j ;
+    int a , i , b , c , j ;
 
     printf(" Enter a the starting range : ") ;
     scanf("%d" , &a ) ;
@@ -16,23 +16,18 @@ int main()
     for ( i = a ; i <= b ; i++)
     {
         c = 0 ;
-
         for ( j = 1 ; j <= i ; j++)
         {
-
             if (i % j == 0 )
             {
-                c = c + 1 ;
-            }
-
-            if (c==2)
-            {
-                printf(" %d \n ", i );
+                c++ ;
             }
         }
-        
+        if (c==2)
+        {
+            printf(" %d \n ", i );
+        }    
     }
-    
     
     getch() ;
 
