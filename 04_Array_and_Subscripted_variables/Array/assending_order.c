@@ -22,7 +22,7 @@ int main()
     {
         if (b[i]>big)
         {
-            big = a[i] ;
+            big = b[i] ;
         }
     }
 
