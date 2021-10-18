@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a , b , j, i, count, sum = 0;
+    int a , b , j, i, c ;
 
     printf("Enter the starting range : ");
     scanf("%d",&a);
@@ -11,21 +11,20 @@ int main()
     printf("Enter the ending range : ");
     scanf("%d",&b);
 
-    printf("The Prime Numbers in the range %d and %d are : "
-    )
+    printf("The Prime Numbers in the range %d and %d are : " , a , b );
     
     for(i=a; i<=b ; ++i)
     {
-        count = 0;
+        c = 0;
         for(j=1; j<= i; j++)
         {
             if( i % j == 0)
             {
-                count++;
+                c++;
             }
         }
-        if(count==2)
-        printf(" %d \n ", i );
+        if(c == 2)
+        printf(" %d ; ", i );
     }
 
     return 0;
