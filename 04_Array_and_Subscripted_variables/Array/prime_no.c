@@ -22,20 +22,19 @@ int main()
     for ( i = 1; i <= a ; i++)
     {
          c = 0 ;
-         
         for ( j = 1 ; j <=b[i]  ; i++)
         {
            
             if (b[i] % j == 0)
             {
                 c++ ;
-            }
-            if (c==2)
+            }    
+        }
+        if (c==2)
             {
                 printf("%d ; ", b[i]  );
             }
-                
-        }
+            
     }
     getch(); 
     
