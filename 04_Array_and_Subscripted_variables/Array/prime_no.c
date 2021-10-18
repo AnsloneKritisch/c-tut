@@ -10,7 +10,7 @@ int main()
     printf("Total 20 number you can take ");
     printf("\n How many no.s you want to check : ");
     scanf("%d",&a);
-
+ 
     for ( i = 1; i <= a ; i++)
     {
         printf(" Enter the %d) number : ", i );
