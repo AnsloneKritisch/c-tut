@@ -26,7 +26,7 @@ int main()
         }
     }
 
-    printf("The Biggest Number is = %d ", big );
+    printf("\n The Biggest Number is = %d ", big );
 
     getch();
 
