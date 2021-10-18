@@ -1,4 +1,4 @@
-//WAP to arrange all the numbers in Assending order.
+//WAP to find the biggest number among the number input by the user.
 
 #include <stdio.h>
 #include <conio.h>
@@ -26,8 +26,9 @@ int main()
         }
     }
 
-    printf("%d",big);
+    printf("The Biggest Number is = %d ", big );
 
-    
+    getch();
+
     return 0;
 }
