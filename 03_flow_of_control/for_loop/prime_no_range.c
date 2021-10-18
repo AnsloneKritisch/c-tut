@@ -7,11 +7,13 @@ int main()
 {
     int a , i , b , c , j ;
 
-    printf(" Enter a the starting range : ") ;
+    printf(" Enter the Starting range : ") ;
     scanf("%d" , &a ) ;
 
-    printf(" Enter a the ending range : ") ;
+    printf(" Enter the Ending range : ") ;
     scanf("%d" , &b ) ;
+
+    printf("The Prime Number in the range %d and %d are : ", a , b );
 
     for ( i = a ; i <= b ; i++)
     {
@@ -25,7 +27,7 @@ int main()
         }
         if (c==2)
         {
-            printf(" %d \n ", i );
+            printf(" %d ; ", i );
         }    
     }
     
