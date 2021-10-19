@@ -7,9 +7,9 @@ int main()
 {
    int a , b[20] , i , j  ;
 
-   printf("Maximum 20 numbers could be taken");
+   printf(" Maximum 20 numbers could be taken ");
 
-   printf("Enter how many no. : ");
+   printf("\n Enter how many no. : ");
    scanf("%d",&a);
    
    for ( i = 1; i <= a ; i++)
@@ -29,8 +29,7 @@ int main()
             }
         }   
     }
-    
-    
-    
+    getch();
+
     return 0;
 }
