@@ -20,15 +20,17 @@ int main()
         if(a%i == 0 && b%i ==0)
         {
             printf("The HCF of %d and %d is = %d ",a,b,i);
-            lcm = i ;
+            hcf = i ;
             break;
         }
     }
 
-    printf(" \n %d", lcm);
-
     product = a*b ;
-    hcf = product ;
+    lcm = product/hcf;
+
+    printf("\n The LCM of %d and %d is : %d ",a,b,lcm);
+
+    getch();
         
     return 0;
 }
