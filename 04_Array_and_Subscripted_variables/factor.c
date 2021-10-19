@@ -5,17 +5,15 @@
 
 int main()
 {
-    int a , b[20] , c , i , j ;
+   int a , b[20] , i , j  ;
 
-    printf("Total 20 number can be take input");
-
-    printf("\n Enter How many numbers you want to take input : ");
+    printf("Enter how many no. : ");
     scanf("%d",&a);
 
-    for ( i = 1; i <= a; i++)
+    for ( i = 1; i <= a ; i++)
     {
-        printf("Enter the %d) number : ", i );
-        scanf("%d",b[i]);
+        printf("Enter the %d) number : ", i ) ;
+        scanf("%d",&b[i]) ;
     }
 
     for ( i = 1; i <= a; i++)
