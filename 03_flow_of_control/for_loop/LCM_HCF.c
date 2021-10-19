@@ -5,7 +5,7 @@
 
 int main()
 {
-    int a , b , c , i , p , h , l ;
+    int a , b , c , i , product , hcf , lcm ;
 
     printf("Enter a number : ");
     scanf("%d", &a );
@@ -20,9 +20,15 @@ int main()
         if(a%i == 0 && b%i ==0)
         {
             printf("The HCF of %d and %d is = %d ",a,b,i);
+            lcm = i ;
             break;
         }
     }
+
+    printf(" \n %d", lcm);
+
+    product = a*b ;
+    hcf = product ;
         
     return 0;
 }
