@@ -9,7 +9,7 @@ int main()
 
     printf("Total 20 number can be take input");
 
-    printf("Enter How many numbers you want to take input : ");
+    printf("\n Enter How many numbers you want to take input : ");
     scanf("%d",&a);
 
     for ( i = 1; i <= a; i++)
@@ -20,7 +20,7 @@ int main()
 
     for ( i = 1; i <= a; i++)
     {
-        printf("The factors of number %d are : ", b[i] )
+        printf("The factors of number %d are : ", b[i] ) ;
         for ( j = 1; j <= b[i] ; j++)
         {
             if(b[i] % j == 0)
