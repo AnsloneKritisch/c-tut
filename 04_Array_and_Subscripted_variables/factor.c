@@ -7,23 +7,25 @@ int main()
 {
    int a , b[20] , i , j  ;
 
-    printf("Enter how many no. : ");
-    scanf("%d",&a);
+   printf("Maximum 20 numbers could be taken");
 
-    for ( i = 1; i <= a ; i++)
-    {
-        printf("Enter the %d) number : ", i ) ;
-        scanf("%d",&b[i]) ;
-    }
+   printf("Enter how many no. : ");
+   scanf("%d",&a);
+   
+   for ( i = 1; i <= a ; i++)
+   {
+       printf("Enter the %d) number : ", i ) ;
+       scanf("%d",&b[i]) ;
+   }
 
     for ( i = 1; i <= a; i++)
     {
-        printf("The factors of number %d are : ", b[i] ) ;
+        printf("\n The factors of number %d are : ", b[i] ) ;
         for ( j = 1; j <= b[i] ; j++)
         {
             if(b[i] % j == 0)
             {
-                printf("%d",j);
+                printf(" %d ; ", j);
             }
         }   
     }
