@@ -28,18 +28,18 @@ int main()
         {
             if (b[i] % j == 0 )
             {
-                c = c+i ;
+                c = c+j;
             }
             
         }
         
-        d = b[i] * 2 ;
+    d = b[i] * 2 ;
         
-        if ( c == d)
+    if ( c == d)
         
-        {
-            printf(" %d \n ", b[i] );
-        }
+    {
+        printf(" %d \n ", b[i] );
+    }
 
     }
 
