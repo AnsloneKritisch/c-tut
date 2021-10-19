@@ -18,7 +18,7 @@ int main()
         scanf("%d",&b[i]) ;
     }
 
-    printf("All the Perfect numbers are : ");
+    printf("\n All the Perfect numbers are : ");
 
     for ( i = 1; i <= a ; i++)
     {
@@ -38,7 +38,7 @@ int main()
     if ( c == d)
         
     {
-        printf(" %d \n ", b[i] );
+        printf(" %d ; ", b[i] );
     }
 
     }
