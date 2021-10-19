@@ -7,27 +7,41 @@
 
 int main()
 {
-    int a , i , j=0 , b ;
+    int a , b[20] , i , j , c , d ;
 
-    printf(" Write the no. = ");
-    scanf("%d" , &a );
+    printf("Enter how many no. : ");
+    scanf("%d",&a);
 
     for ( i = 1; i <= a ; i++)
     {
-        if (a%i==0)
-        {
-            j=j+i ;
-        }
-                
+        printf("Enter the %d) number : ", i ) ;
+        scanf("%d",&b[i]) ;
     }
-    
-    b = a*2 ;
 
-    if ( j == b)
+    printf("All the Perfect numbers are : ");
+
+    for ( i = 1; i <= a ; i++)
     {
-        printf(" %d is a Perfect Number \n ", a );
+        c = 0 ;
+
+        for ( j = 1; j <= b[i] ; j++)
+        {
+            if (b[i] % j == 0 )
+            {
+                c = c+i ;
+            }
+            
+        }
+        
+        d = b[i] * 2 ;
+        
+        if ( c == d)
+        
+        {
+            printf(" %d \n ", b[i] );
+        }
+
     }
-    else printf(" %d is not a Perfect Number \n ", a );
 
     getch();
 
