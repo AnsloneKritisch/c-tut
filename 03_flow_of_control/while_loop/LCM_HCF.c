@@ -27,6 +27,14 @@ int main()
         
         i++;
     }
+
+    product = a*b ;
+    
+    lcm = product/hcf;
+
+    printf("\n The LCM of %d and %d is : %d ",a,b,lcm);
+
+    getch();
     
     
     return 0;
