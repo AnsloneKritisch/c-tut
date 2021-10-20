@@ -1,0 +1,1 @@
+//WAP to find LCM and HCF of a number using While-loop.

@@ -1,4 +1,4 @@
-//WAP to find LCM and HCF of a numbers.
+//WAP to find LCM and HCF of a numbers using For-loop.
 
 #include <stdio.h>
 #include <conio.h>
