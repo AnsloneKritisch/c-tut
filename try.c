@@ -19,7 +19,7 @@ int main()
 
     for ( i = 1 ; i <= a ; i++)
     {
-        if ( b[i] < b[i+1] )
+        if ( b[i] > b[i+1] )
         {
             b[i] = b[i+1] ;
         }
