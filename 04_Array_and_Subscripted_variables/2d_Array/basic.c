@@ -24,13 +24,13 @@ int main()
         
     }
 
-    printf(" The Matrix fo");
+    printf(" The Matrix we get : ");
 
     for ( i = 0; i < ro; i++)
     {
         for ( j = 0; j < co; j++)
         {
-            printf("Enter the %d row and %d column : ",i,j);
+            printf(" %d ",a[i][j]);
         }
         
     }
