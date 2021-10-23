@@ -26,19 +26,23 @@ int main()
         }
         printf("\n");
     }
+    for(i=0;i<=ro;i++)
+    {
+        for(j=0;j<co;j++)
+        {
+            if(i==j)
+            ldsum=ldsum+a[i][j];
+            if(i+j==ro-1)
+            rdsum=rdsum+a[i][j];
+        }
+    }
 
-for(i=0;i<=ro;i++)
-{
-for(j=0;j<co;j++)
-{
-if(i==j)
-ldsum=ldsum+a[i][j];
-if(i+j==ro-1)
-rdsum=rdsum+a[i][j];
-}
-}
 printf("\nThe Left Diagonal Sum is=%d",ldsum);
+
 printf("\nThe Right Diagonal Sum is=%d",rdsum);
+
 getch();
+
 return 0;
+
 }
