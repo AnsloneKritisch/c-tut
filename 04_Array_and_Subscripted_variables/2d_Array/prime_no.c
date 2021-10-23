@@ -23,7 +23,8 @@ int main()
         
     }
 
-    printf(" \n ")
+    printf(" \n ");
+    printf(" \n ");
 
     printf(" The Matrix we get is : \n ");
 
