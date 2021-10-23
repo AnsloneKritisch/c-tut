@@ -24,7 +24,7 @@ int main()
         
     }
 
-    printf(" The Matrix we get : \n ");
+    printf(" The Matrix we get is : \n ");
 
     for ( i = 0; i < ro; i++)
     {
@@ -36,8 +36,7 @@ int main()
         
     }
 
-    
-    
+    getch();
     
     return 0;
 }
