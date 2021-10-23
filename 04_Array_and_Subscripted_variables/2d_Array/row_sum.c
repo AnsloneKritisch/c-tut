@@ -5,7 +5,7 @@
 
 int main()
 {
-    int ro , co , a[20][20] , i , j , k , c , d ;
+    int ro , co , a[20][20] , i , j , s ;
 
     printf("Enter number of rows : ");
     scanf("%d",&ro);
@@ -50,20 +50,10 @@ int main()
     {
         for ( j = 0; j < co; j++)
         {
-            d = a[i][j] ; 
-            c = 0 ;
-            for ( k = 1; k <= d ; k++)
-            {
-                if (d % k == 0 )
-                {
-                    c++ ;
-                }
-            }
-            if (c == 2)
-            {
-                printf(" %d ; ", d );
-            }    
-        }        
+            s = s + a[i][j] ;
+        }
+        printf(" The sum of all the numbers in %d row is = %d ", i+1 , s ) ;
+        s = 0 ;        
     }
 
     printf(" \n ");
