@@ -42,12 +42,15 @@ int main()
     }
 
     printf(" \n ");
+    printf(" \n ");
+
+    printf(" All the Prime numbers we get from the Matrics are : ");
 
     for ( i = 0; i < ro; i++)
     {
         for ( j = 0; j < co; j++)
         {
-            d = a[i][j]  
+            d = a[i][j] ; 
             c = 0 ;
             for ( k = 1; k <= d ; k++)
             {
