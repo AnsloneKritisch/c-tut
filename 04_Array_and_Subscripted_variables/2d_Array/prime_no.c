@@ -5,13 +5,16 @@
 
 int main()
 {
-    int ro , co , a[20][20] , i , j ;
+    int ro , co , a[20][20] , i , j , k , c , d ;
 
     printf("Enter number of rows : ");
     scanf("%d",&ro);
     
     printf("Enter number of column : ");
     scanf("%d",&co);
+
+    printf(" \n ");
+    printf(" \n ");
 
     for ( i = 0; i < ro; i++)
     {
@@ -37,6 +40,30 @@ int main()
         printf(" \n ");
         
     }
+
+    printf(" \n ");
+
+    for ( i = 0; i < ro; i++)
+    {
+        for ( j = 0; j < co; j++)
+        {
+            d = a[i][j]  
+            c = 0 ;
+            for ( k = 1; k <= d ; k++)
+            {
+                if (d % k == 0 )
+                {
+                    c++ ;
+                }
+            }
+            if (c == 2)
+            {
+                printf(" %d ; ", a[i][j]);
+            }    
+        }
+        
+    }
+
 
     getch();
     
