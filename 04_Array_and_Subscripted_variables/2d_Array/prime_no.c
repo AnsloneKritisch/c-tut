@@ -61,12 +61,14 @@ int main()
             }
             if (c == 2)
             {
-                printf(" %d ; ", a[i][j]);
+                printf(" %d ; ", d );
             }    
-        }
-        
+        }        
     }
 
+    printf(" \n ");
+    printf(" \n ");
+    printf(" \a ");
 
     getch();
     
