@@ -44,7 +44,6 @@ int main()
     printf(" \n ");
     printf(" \n ");
 
-    printf(" All the Prime numbers we get from the Matrics are : ");
 
     for ( i = 0; i < ro; i++)
     {
@@ -58,7 +57,6 @@ int main()
 
     printf(" \n ");
     printf(" \n ");
-    printf(" \a ");
 
     getch();
     
