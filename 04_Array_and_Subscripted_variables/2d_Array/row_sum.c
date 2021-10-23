@@ -51,7 +51,7 @@ int main()
         {
             s = s + a[i][j] ;
         }
-        printf(" The sum of all the numbers in %d row is = %d ", i+1 , s ) ;
+        printf(" The sum of all the numbers in row %d is = %d  \n ", i+1 , s ) ;
         s = 0 ;        
     }
 
