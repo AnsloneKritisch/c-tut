@@ -1,4 +1,5 @@
 //WAP to add all the number in the diagonal of a matrix both side.
+
 #include<stdio.h>
 #include<conio.h>
 
@@ -48,10 +49,9 @@ int main()
             rdsum=rdsum+a[i][j];
         }
     }
-
-printf("\nThe Left Diagonal Sum is=%d",ldsum);
-
-printf("\nThe Right Diagonal Sum is=%d",rdsum);
+    
+    printf("\nThe Left Diagonal Sum is=%d",ldsum);
+    printf("\nThe Right Diagonal Sum is=%d",rdsum);
 
     
     getch();
