@@ -45,14 +45,9 @@ int main()
     printf(" \n ");
     printf(" \n ");
 
-    printf(" Which two rows would you like to change ? ");
-
-    printf(" \n ");
-
+    printf(" Which two rows would you like to change ? \n");
     printf(" Original row : ");
     scanf("%d",&n1);
-
-    printf(" \n ");
 
     printf(" Row need to be interchange : ");
     scanf("%d",&n2 );
@@ -63,8 +58,8 @@ int main()
         a[n1 - 1][i] = a[n2 - 1][i];
         a[n2 - 1][i] = copy ;
     }
-
-     printf("\n Matrix after row exchange : \n");
+    
+    printf("Matrix after row exchange : \n ");
     for ( i = 0; i < ro; i++)
     {
         for ( j = 0; j < co; j++)
