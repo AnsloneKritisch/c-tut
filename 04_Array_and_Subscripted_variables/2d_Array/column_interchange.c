@@ -1,4 +1,4 @@
-//WAP to interchange row of a matrix given input by the user .
+//WAP to interchange column of a matrix given input by the user .
 
 #include <stdio.h>
 #include <conio.h>
@@ -45,24 +45,24 @@ int main()
     printf(" \n ");
     printf(" \n ");
 
-    printf(" Which two rows would you like to change ? \n");
-    printf(" Original row : ");
+    printf(" Which two Column would you like to change ? \n");
+    printf(" Original column : ");
     scanf("%d",&n1);
 
-    printf(" Row need to be interchange : ");
+    printf(" Column need to be interchange : ");
     scanf("%d",&n2 );
 
-    for ( i = 0; i <= ro ; i++)
+    for ( i = 0; i <= co ; i++)
     {
-        copy = a[n1 - 1][i];
-        a[n1 - 1][i] = a[n2 - 1][i];
-        a[n2 - 1][i] = copy ;
+        copy = a[i][n1 - 1];
+        a[i][n1 - 1] = a[i][n2 - 1];
+        a[i][n2 - 1] = copy ;
     }
 
     printf(" \n ");
     printf(" \n ");
     
-    printf("Matrix after row exchange : \n ");
+    printf("Matrix after Column exchange : \n ");
     for ( i = 0; i < ro; i++)
     {
         for ( j = 0; j < co; j++)
