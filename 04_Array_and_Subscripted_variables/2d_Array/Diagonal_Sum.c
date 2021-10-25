@@ -31,7 +31,8 @@ int main()
     {
         for(j=0;j<co;j++)
         {
-            printf("Enter The %d Row and %d Column : ",i,j);
-            scanf("%d",&a[i][j]);
+            printf(" %d ",a[i][j]);
         }
+        printf(" \n ");
     }
+    
