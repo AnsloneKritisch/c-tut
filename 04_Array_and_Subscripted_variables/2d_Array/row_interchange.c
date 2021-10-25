@@ -58,6 +58,9 @@ int main()
         a[n1 - 1][i] = a[n2 - 1][i];
         a[n2 - 1][i] = copy ;
     }
+
+    printf(" \n ");
+    printf(" \n ");
     
     printf("Matrix after row exchange : \n ");
     for ( i = 0; i < ro; i++)
@@ -69,7 +72,6 @@ int main()
         printf(" \n ");
     }
 
-    printf(" \n ");
     printf(" \n ");
 
     getch();
