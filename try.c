@@ -26,6 +26,7 @@ int main()
         }
         printf("\n");
     }
+   
     for(i=0;i<=ro;i++)
     {
         for(j=0;j<co;j++)

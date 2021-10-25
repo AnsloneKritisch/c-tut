@@ -38,24 +38,20 @@ int main()
         printf(" \n ");
     }
 
-    // Loop for left diagonal 
-    
-    for ( i = 0; i <= ro ; i++)
+     for(i=0;i<=ro;i++)
     {
-        for ( j = 0 ; j <= co ; j++)
+        for(j=0;j<co;j++)
         {
-            if ( j == i)
-            {
-                ldsum = ldsum + a[i][j] ;
-            }
-            
+            if(i==j)
+            ldsum=ldsum+a[i][j];
+            if(i+j==ro-1)
+            rdsum=rdsum+a[i][j];
         }
-        
     }
 
-    printf("\nThe Left Diagonal Sum is=%d",ldsum);
-    
+printf("\nThe Left Diagonal Sum is=%d",ldsum);
 
+printf("\nThe Right Diagonal Sum is=%d",rdsum);
 
     
     getch();
