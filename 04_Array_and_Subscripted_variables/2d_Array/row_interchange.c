@@ -5,7 +5,7 @@
 
 int main()
 {
-    int ro , co , a[20][20] , i , j ;
+    int ro , co , a[20][20] , i , j , n1 , n2 , copy ;
 
     printf("Enter number of rows : ");
     scanf("%d",&ro);
@@ -34,6 +34,29 @@ int main()
         printf(" \n ");
         
     }
+
+    printf("Enter which two row want to be changed : ");
+    scanf("%d %d", &n1 , &n2 );
+
+    for ( i = 0; i <= ro ; i++)
+    {
+        copy = a[n1 - 1][i];
+        a[n1 - 1][i] = a[n2 - 1][i];
+        a[n2 - 1][i] = copy ;
+    }
+
+     printf("Matrix after row exchange:\n");
+     printf(" The Matrix we get is : \n ");
+
+    for ( i = 0; i < ro; i++)
+    {
+        for ( j = 0; j < co; j++)
+        {
+            printf(" %d ",a[i][j]);
+        }
+        printf(" \n ");
+    }
+
 
     getch();
     
