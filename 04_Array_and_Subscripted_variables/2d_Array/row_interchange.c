@@ -1,4 +1,4 @@
-//WAP to interchange the row .
+//WAP to interchange row of a matrix given input by the user .
 
 #include <stdio.h>
 #include <conio.h>
