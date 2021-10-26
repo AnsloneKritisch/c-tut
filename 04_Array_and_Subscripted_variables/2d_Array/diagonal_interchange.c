@@ -49,6 +49,10 @@ int main()
             a[i][ro - i -1] = n1 ;
         }
     }
+
+
+    printf(" \n ");
+    printf(" \n ");
      
     printf("Matrix after row exchange : \n ");
     for ( i = 0; i < ro; i++)
@@ -59,10 +63,6 @@ int main()
         }
         printf(" \n ");
     }
-
-    printf(" \n ");
-
-    
 
     printf(" \n ");
     printf(" \n ");
