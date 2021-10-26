@@ -39,27 +39,17 @@ int main()
         printf(" \n ");
     }
 
-    // Loop of Diagonal sum 
-
-     for( i=0; i<=ro; i++)
+    // Loop of Diagonal sum
+    for ( i = 0; i < ro; i++)
     {
-        for( j=0; j<co; j++)
+        for ( j = 0; j < co; j++)
         {
-            if(i==j)
-            {
-                n1 = a[i][j];
-                copy = n1 ;
-            }
-
-            if(i+j==ro-1)
-            {
-                n2 = a[i][j];
-                n1 = n2 ;
-                n2 = copy ;
-            }
+            n1 = a[i][i];
+            a[i][i] = a[i][ro - i - 1];
+            a[i][ro - i -1] = n1 ;
         }
     }
-
+     
     printf("Matrix after row exchange : \n ");
     for ( i = 0; i < ro; i++)
     {
