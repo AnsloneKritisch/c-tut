@@ -52,7 +52,7 @@ int main()
     printf(" Column need to be interchange : ");
     scanf("%d",&n2 );
 
-    for ( i = 0; i <= co ; i++)
+    for ( i = 0; i < co ; i++)
     {
         copy = a[i][n1 - 1];
         a[i][n1 - 1] = a[i][n2 - 1];

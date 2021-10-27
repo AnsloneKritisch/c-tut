@@ -52,7 +52,7 @@ int main()
     printf(" Row need to be interchange : ");
     scanf("%d",&n2 );
 
-    for ( i = 0; i <= ro ; i++)
+    for ( i = 0; i < ro ; i++)
     {
         copy = a[n1 - 1][i];
         a[n1 - 1][i] = a[n2 - 1][i];
