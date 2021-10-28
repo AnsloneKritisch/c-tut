@@ -17,9 +17,23 @@ int main()
     char st1[90] , st2[90] ;
 
     printf("Enter the sentence : ");
-    gets(st);
+    gets(st1);
 
-    printf(" Printing the sentence using %s",st);
-    
+    printf("\n");
+    printf("\n");
+
+    printf(" Printing the sentence using gets() function we get : \n %s ", st1 ) ;
+
+    printf("\n");
+    printf("\n");
+
+    printf("Enter another sentence : ");
+    scanf("%s", &st2);
+
+     printf("\n");
+    printf("\n");
+
+    printf(" Printing the sentence using scanf() function we get : \n %s ", st2 ) ;
+
     return 0;
 }
