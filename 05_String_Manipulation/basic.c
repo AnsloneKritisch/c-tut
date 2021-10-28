@@ -30,10 +30,15 @@ int main()
     printf("Enter another sentence : ");
     scanf("%s", &st2);
 
-     printf("\n");
+    printf("\n");
     printf("\n");
 
     printf(" Printing the sentence using scanf() function we get : \n %s ", st2 ) ;
+
+    printf("\n");
+    printf("\n");
+
+    getch();
 
     return 0;
 }
