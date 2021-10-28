@@ -1,3 +1,11 @@
+/* 
+For string we use gets() in place of scanf() because in a sentence there are gaps
+and scanf() terminates at the gap and no further word is printed.
+
+gets() don't terminate at gaps and print both space and the full sentence without terminateing any thing. 
+
+*/
+
 //WAP to take input string and print it.
 
 #include <stdio.h>
@@ -6,12 +14,12 @@
 
 int main()
 {
-    char st[90] ;
+    char st1[90] , st2[90] ;
 
-    printf("Enter the string : ");
+    printf("Enter the sentence : ");
     gets(st);
 
-    printf("%s",st);
+    printf(" Printing the sentence using %s",st);
     
     return 0;
 }

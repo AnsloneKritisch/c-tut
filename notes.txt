@@ -84,4 +84,21 @@ Some important Points to remember :-
 
 17. Continue Statment is used to continue the loop except the condition part .
 
-18. 
+18. slno. -> Function ->      Use
+      1   -> strlen   ->    calculates the length of string
+      2   -> strcat   ->	Appends one string at the end of another
+      3   -> strncat  ->	Appends first n characters of a string at the end of another
+      4   -> strcpy   ->	Copies a string into another
+      5   -> strncpy  ->	Copies first n characters of one string into another
+      6   -> strcmp   ->	Compares two strings
+      7   -> strncmp  ->	Compares first n characters of two strings
+      8   -> strchr   ->	Finds the first occurrence of a given character in a string 
+      9   -> strrchr  ->	Finds the last occurrence of a given character in a string
+      10  -> strstr   ->	Finds the first occurrence of a given string in another string
+      11  -> strcspn  ->	Calculates the initial length of a string, not containing any character of the other string
+      12  -> strspn   ->	Calculates the initial length of a string, containing the only characters of the other string
+      13  -> strpbrk  ->	Finds the first occurrence of any of the characters of a string in another string
+      14  -> strtok   ->	splits a string into token
+
+19. For string we use gets() in place of scanf() because in a sentence there are gaps and scanf() terminates at the gap and no further word is printed.
+    gets() don't terminate at gaps and print both space and the full sentence without terminateing any thing.
