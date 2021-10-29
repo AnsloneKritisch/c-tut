@@ -15,7 +15,7 @@ int main()
 
     a = strlen(st) ;
 
-    printf("%d",a);
+    printf(" The lenght of the string : %d ",a);
     
     return 0;
 }
