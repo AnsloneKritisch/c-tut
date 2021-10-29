@@ -17,8 +17,10 @@ int main()
         c++;  
     }
 
+    printf("\n");
     printf(" The length of a string is : %d ", c );
-    
-    
+    printf("\n");
+
+    getch();
     return 0;
 }
