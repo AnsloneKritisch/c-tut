@@ -14,10 +14,12 @@ int main()
 
     strrev(st);
 
-    printf("\n")
+    printf("\n");
     printf("Reversing the sentence : ");
     printf(" %s ",st);
+    printf("\n");
+    printf("\n");
 
-
+    getch();
     return 0;
 }
