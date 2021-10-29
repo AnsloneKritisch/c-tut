@@ -13,16 +13,17 @@ int main()
     gets(st);
 
     printf("\n");
-    printf("\n");
 
     len = strlen(st);
 
-    printf("Printing the whole sentence in reverse order : \n");
+    printf("Printing the whole sentence in reverse order : ");
 
     for ( i = len ; i >= 0 ; i--)
     {
-        printf("%s" , st[i]) ;  
+        printf("%c" , st[i]) ;  
     }
+
+    printf("\n");
 
     getch();
     return 0;
