@@ -7,7 +7,7 @@
 int main()
 {
     char st[90] ;
-    int i , c ;
+    int i , c=0 ;
 
     printf("Enter a sentence : ");
     gets(st);
