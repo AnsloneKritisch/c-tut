@@ -1,4 +1,5 @@
 /* 
+
 For string we use gets() in place of scanf() because in a sentence there are gaps
 and scanf() terminates at the gap and no further word is printed.
 
