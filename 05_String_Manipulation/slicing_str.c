@@ -21,7 +21,8 @@ int main()
     {
         printf("%c \n " , st[i]) ;  
     }
-    
+
+    getch();
     
     return 0;
 }

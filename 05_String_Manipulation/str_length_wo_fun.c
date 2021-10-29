@@ -7,14 +7,14 @@
 int main()
 {
     char st[90] ;
-    int i , a ;
+    int i , c ;
 
     printf("Enter a sentence : ");
     gets(st);
 
     for ( i = 0; st[i]!='\0'; ++i)
     {
-        printf("%c \n " , st[i]) ;  
+        c++;  
     }
     
     
