@@ -12,10 +12,12 @@ int main()
     printf("Enter a sentence : ");
     gets(st);
 
-    for ( i = 0; st[i]!='\0'; ++i)
+    for ( i = 0; st[i]!='\0'; i++)
     {
         c++;  
     }
+
+    printf(" The length of a string is : %d ", c );
     
     
     return 0;
