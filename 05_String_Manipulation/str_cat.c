@@ -1,4 +1,5 @@
 //strcat   ->	Appends one string at the end of another
+//WAP to append or add one string on another. 
 
 #include <stdio.h>
 #include <conio.h>
