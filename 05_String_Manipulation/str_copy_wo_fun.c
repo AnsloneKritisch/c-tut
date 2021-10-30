@@ -7,7 +7,7 @@
 int main()
 {
     char st1[90] , st2[90] ;
-    int a ;
+    int i , a ;
 
     printf("\n");
 
@@ -19,15 +19,15 @@ int main()
     printf("Enter the 2nd sentence : ");
     gets(st2);
 
-    printf("\n");
+    a = strlen(st1);
 
-    strcpy(st2,st1);
+    for ( i = 0; i >= a ; ++i)
+    {
+        st2[i] = st1[i];  
+    }
 
-    printf("After coping the 1st into 2nd :- \n ");
-    printf("%s", st2);
-    
-    printf("\n");
-    printf("\n");
+    printf("%s",st1);
+
 
     getch();
     return 0;
