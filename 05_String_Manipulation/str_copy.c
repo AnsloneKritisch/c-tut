@@ -23,17 +23,12 @@ int main()
 
     strcpy(st1,st2);
 
-    printf("After coping t");
+    printf("After coping the 1st into 2nd :- \n ");
     printf("%s", st2);
-    
-
-
-
     
     printf("\n");
     printf("\n");
 
     getch();
-
     return 0;
 }
