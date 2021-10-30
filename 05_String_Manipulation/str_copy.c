@@ -10,7 +10,6 @@ int main()
     int a ;
 
     printf("\n");
-    printf("\n");
 
     printf("Enter the 1st sentence : ");
     gets(st1);
@@ -18,12 +17,13 @@ int main()
     printf("\n");
 
     printf("Enter the 2nd sentence : ");
-    scanf("%s", &st2);
+    gets(st2);
 
     printf("\n");
 
     strcpy(st1,st2);
 
+    printf("After coping t");
     printf("%s", st2);
     
 
