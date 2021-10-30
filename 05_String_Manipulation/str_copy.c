@@ -21,7 +21,7 @@ int main()
 
     printf("\n");
 
-    strcpy(st1,st2);
+    strcpy(st2,st1);
 
     printf("After coping the 1st into 2nd :- \n ");
     printf("%s", st2);
