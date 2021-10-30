@@ -26,6 +26,9 @@ int main()
         st2[i] = st1[i];  
     }
 
+    
+
+    printf("After coping the 1st sentence into 2nd sentence : ") ;
     printf("%s",st1);
 
 
