@@ -102,3 +102,6 @@ Some important Points to remember :-
 
 19. For string we use gets() in place of scanf() because in a sentence there are gaps and scanf() terminates at the gap and no further word is printed.
     gets() don't terminate at gaps and print both space and the full sentence without terminateing any thing.
+
+20. In the function strcpy(st2,st1); -> st2 is the string in which st1 will be copied.
+    In the function strcpy( sting_going_to_be_changed ,string_should_be_copied_into_another_one ); 

@@ -1,5 +1,4 @@
-//In the function strcpy(st2,st1); -> st2 is the string in which st1 will be copied.
-//WAP to take input string and copy it.
+//WAP to take input string and copy it without using the strcopy function.
 
 #include <stdio.h>
 #include <conio.h>
@@ -22,7 +21,6 @@ int main()
 
     printf("\n");
 
-    //In the function strcpy(st2,st1); -> st2 is the string in which st1 will be copied.
     strcpy(st2,st1);
 
     printf("After coping the 1st into 2nd :- \n ");
