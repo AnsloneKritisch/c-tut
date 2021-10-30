@@ -26,12 +26,13 @@ int main()
         st2[i] = st1[i];  
     }
 
-    
+    printf("\n");
 
     printf("After coping the 1st sentence into 2nd sentence : ") ;
     printf("%s",st1);
 
-
+    printf("\n");
+    
     getch();
     return 0;
 }
