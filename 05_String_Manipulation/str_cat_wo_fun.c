@@ -23,23 +23,15 @@ int main()
     b = strlen(st2);
     c = a+b ; 
 
-    i = 0;
-    while (st1[i] != '\0')
-    {
-		st3[j] = st1[i];
-		i++;
-		j++;
-    }
-
-    i = 0;
-	while (st2[i] != '\0')
-    {
-		st3[j] = st2[i];
-		i++;
-		j++;
-	}
-	st3[j] = '\0';
-      
+   for(i=0; st1[i]!='\0'; ++i); 
+   {
+       for(j=0; st2[j]!='\0'; ++j, ++i)
+       {
+           st1[i]=st2[j];
+       }
+   }
+   st1[i]='\0';
+   printf("\nOutput: %s",st1);
     
 
     printf("After Appending or Adding the 2nd sentence into 1st sentence : ") ;
