@@ -1,50 +1,41 @@
-#include <stdio.h>
-     
-    void main ()
-    {
-        static int array[10][10];
-        int i, j, m, n, a;
-     
-        printf("Enter the order of the matix \n");
-        scanf("%d %d", &m, &n);
-        if (m == n)
-        {
-            printf("Enter the co-efficients of the matrix\n");
-            for (i = 0; i < m; ++i)
-            {
-                for (j = 0; j < n; ++j)
-                {
-                    scanf("%dx%d", &array[i][j]);
-                }
-            }
-            printf("The given matrix is \n");
-            for (i = 0; i < m; ++i)
-            {
-                for (j = 0; j < n; ++j)
-                {
-                    printf(" %d", array[i][j]);
-                }
-                printf("\n");
-            }
-            for (i = 0; i < m; ++i)
-            {
-                a = array[i][i];
-                array[i][i] = array[i][m - i - 1];
-                array[i][m - i - 1] = a;
-            }
-            printf("The matrix after changing the \n");
-            printf("main diagonal & secondary diagonal\n");
-            for (i = 0; i < m; ++i)
-            {
-                for (j = 0; j < n; ++j)
-                {
-                    printf(" %d", array[i][j]);
-                }
-                printf("\n");
-            }
-        }
-        else
-            printf("The given order is not square matrix\n");
-    }
-     
+// C Program to concatenate
+// two strings without using strcat
 
+#include <stdio.h>
+
+int main()
+{
+
+	// Get the two Strings to be concatenated
+	char str1[100] = "Geeks", str2[100] = "World";
+
+	// Declare a new Strings
+	// to store the concatenated String
+	char str3[100];
+
+	int i = 0, j = 0;
+
+	printf("\nFirst string: %s", str1);
+	printf("\nSecond string: %s", str2);
+
+	// Insert the first string in the new string
+	while (str1[i] != '\0') {
+		str3[j] = str1[i];
+		i++;
+		j++;
+	}
+
+	// Insert the second string in the new string
+	i = 0;
+	while (str2[i] != '\0') {
+		str3[j] = str2[i];
+		i++;
+		j++;
+	}
+	str3[j] = '\0';
+
+	// Print the concatenated string
+	printf("\nConcatenated string: %s", str3);
+
+	return 0;
+}
