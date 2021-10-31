@@ -7,7 +7,7 @@
 int main()
 {
    char st1[90] , st2[90] , st3[90] ;
-    int i , a , b , c ;
+    int i , a , b , c , j ;
 
     printf("\n");
 
@@ -27,7 +27,11 @@ int main()
 
     for ( i = a; i <= c ; i++)
     {
-        st1[i] = st2[i];
+        for ( j = 0;  j < b ; i++)
+        {
+            st1[i] = st2[j];
+        }
+        
     }
     
 
