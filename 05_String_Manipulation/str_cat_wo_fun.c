@@ -31,11 +31,11 @@ int main()
        }
    }
    st1[i]='\0';
-   printf("\nOutput: %s",st1);
+   
     
 
     printf("After Appending or Adding the 2nd sentence into 1st sentence : ") ;
-    printf("%s",st3);
+    printf("%s",st1);
 
     getch();
     return 0;
