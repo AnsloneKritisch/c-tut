@@ -17,26 +17,21 @@ int main()
     printf("\n");
 
     printf("Enter the 2nd sentence : ");
-    gets(st2);
-
-    a = strlen(st1);
-    b = strlen(st2);
-    c = a+b ; 
+    gets(st2); 
 
    for(i=0; st1[i]!='\0'; ++i); 
    {
        for(j=0; st2[j]!='\0'; ++j, ++i)
        {
            st1[i]=st2[j];
-       }
+       } 
    }
-   
-   
-    
+   str1[i]='\0';
 
-    printf("After Appending or Adding the 2nd sentence into 1st sentence : ") ;
-    printf("%s",st1);
-
-    getch();
-    return 0;
+   printf("\n");
+   printf("After Appending or Adding the 2nd sentence into 1st sentence : ") ;
+   printf("%s",st1);
+   
+   getch();
+   return 0;
 }
