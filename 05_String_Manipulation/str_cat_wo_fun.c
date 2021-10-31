@@ -26,7 +26,7 @@ int main()
            st1[i]=st2[j];
        } 
    }
-   str1[i]='\0';
+   st1[i]='\0';
 
    printf("\n");
    printf("After Appending or Adding the 2nd sentence into 1st sentence : ") ;
