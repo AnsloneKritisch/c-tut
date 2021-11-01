@@ -10,22 +10,23 @@ int main()
     int i , a , c ;
 
     printf("Enter the word : ");
-    gets("st1");
+    scanf("%s", &st1);
 
     a = strlen(st1) ;
     strcpy(st2 , st1);
     strrev(st1);
 
-    for(i = 0; i < a ; i++)
+    for(i = 0; i <= a ; i++)
     {
-        if (st2[i] == st1[i])
+        if (st1[i] == st2[i])
         {
             c++;
         }
-        else printf("%s is not a palindrome");
-   
-
     }
+
+    printf("%d = c ",c);
+    printf("%d = a",a);
+
     
     
     return 0;
