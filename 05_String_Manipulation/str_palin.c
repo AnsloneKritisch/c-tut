@@ -25,8 +25,13 @@ int main()
         }
     }
 
-    printf("%d = c ",c);
-    printf("%d = a",a);
+    if (a = c)
+    {
+        printf("%s is a Palindrome String",st1);
+    }
+    else printf("%s is not a Palindrome String because by reversing it we get %s");
+    
+    
 
     
     
