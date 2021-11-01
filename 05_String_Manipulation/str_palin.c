@@ -7,7 +7,7 @@
 int main()
 {
     char st1[100] , st2[100];
-    int i , a , c ;
+    int i , a , c=0 ;
 
     printf("Enter the word : ");
     scanf("%s", &st1);
@@ -16,7 +16,8 @@ int main()
     strcpy(st2 , st1);
     strrev(st1);
 
-    for(i = 0; i <= a ; i++)
+    c=0;
+    for(i = 0; i < a ; i++)
     {
         if (st1[i] == st2[i])
         {
