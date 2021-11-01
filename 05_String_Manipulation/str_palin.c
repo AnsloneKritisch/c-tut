@@ -9,6 +9,8 @@ int main()
     char st1[100] , st2[100];
     int i , a , c=0 ;
 
+    printf("\n") ;
+
     printf("Enter the word : ");
     scanf("%s", &st1);
 
@@ -25,15 +27,18 @@ int main()
         }
     }
 
+    printf("\n");
+    printf("\n");
+
     if (a = c)
     {
         printf("%s is a Palindrome String",st1);
     }
-    else printf("%s is not a Palindrome String because by reversing it we get %s");
-    
-    
+    else printf("%s is not a Palindrome String because by reversing it we get %s",st1,st2);
 
-    
-    
+    printf("\n");
+    printf("\n");
+
+    getch();
     return 0;
 }
