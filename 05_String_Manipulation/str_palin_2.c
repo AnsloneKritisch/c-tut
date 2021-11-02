@@ -6,35 +6,34 @@
 
 int main()
 {
-    char st1[100] , st2[100];
-    int i , a , c=0 ;
+    char st[100] , st2[100];
+    int i , j , a , c=0 ;
 
     printf("\n") ;
 
     printf("Enter the word : ");
-    scanf("%s", &st1);
+    scanf("%s", &st);
 
-    a = strlen(st1) ;
-    strcpy(st2 , st1);
-    strrev(st1);
-
-    c=0;
-    for(i = 0; i < a ; i++)
+    for ( j = 0; st[j]!='\0'; ++j)
     {
-        if (st1[i] == st2[i])
+        for ( i = 0; i < j/2; i++)
         {
-            c++;
+            if (st[j-i-1] == st[i])
+            {
+                c = 1 ;
+            }
+            else 
+            c = 0;
+            break;
         }
+        
     }
-
-    printf("\n");
-    printf("\n");
-
-    if (a = c)
+    
+    if (c>0)
     {
-        printf("%s is a Palindrome String",st1);
+        printf("%s is a Palindrome String",st);
     }
-    else printf("%s is not a Palindrome String because by reversing it we get %s",st2,st1);
+    else printf(" %s is not a Palindrome String ",st);
 
     printf("\n");
     printf("\n");
