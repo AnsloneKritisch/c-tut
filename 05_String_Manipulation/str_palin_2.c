@@ -7,7 +7,7 @@
 int main()
 {
     char st[100] , st2[100];
-    int i , j , a , c=0 ;
+    int i , j , c=0 ;
 
     printf("\n") ;
 
