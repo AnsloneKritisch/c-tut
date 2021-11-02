@@ -14,7 +14,7 @@ int main()
     printf("Enter the word : ");
     scanf("%s", &st);
 
-    for ( j = 0; st[j]!='\0'; ++j)
+    for ( j = 0; st[j]!='\0'; j++)
     {
         for ( i = 0; i < j/2; i++)
         {
@@ -28,6 +28,8 @@ int main()
         }
         
     }
+
+    printf("\n");
     
     if (c>0)
     {
