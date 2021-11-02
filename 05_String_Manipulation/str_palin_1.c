@@ -34,7 +34,7 @@ int main()
     {
         printf("%s is a Palindrome String",st1);
     }
-    else printf("%s is not a Palindrome String because by reversing it we get %s",st1,st2);
+    else printf("%s is not a Palindrome String because by reversing it we get %s",st2,st1);
 
     printf("\n");
     printf("\n");
