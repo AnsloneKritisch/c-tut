@@ -9,6 +9,9 @@ int main()
     char st[100];
     int i , c=0 ;
 
+    printf("\n");
+    printf("\n");
+
     printf("Enter a sentence : ");
     gets(st);
 
@@ -20,7 +23,10 @@ int main()
         }
     }
 
-    printf("%d",c+1);
+    
+    printf("\n");
+    printf("\n");
+    printf(" The Number of Sentences are = %d ",c+1);
     
     getch();
     return 0;
