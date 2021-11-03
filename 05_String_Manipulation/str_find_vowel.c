@@ -5,10 +5,10 @@
 int main()
 {
   int c = 0, count = 0;
-  char s[1000];
+  char st[100];
 
-  printf("Input a string\n");
-  gets(s);
+  printf("Enter the Sentence : ");
+  gets(st);
 
   while (s[c] != '\0')
    {
@@ -17,7 +17,7 @@ int main()
            count++;
            c++;
        }
-  }
+   }
 
   printf("Number of vowels in the string: %d", count);
 
