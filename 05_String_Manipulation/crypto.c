@@ -6,7 +6,14 @@
 
 int main()
 {
+    char st[100] ;
+    int a ;
+
+    printf(" Enter the sentence : ");
+    gets(st);
+
     
+
     
     return 0;
 }
