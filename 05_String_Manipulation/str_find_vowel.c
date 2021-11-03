@@ -5,7 +5,7 @@
 int main()
 {
     char line[100];
-    int i , vowels , consonant , digit , space ;
+    int i , vowels=0, consonant=0 , digit=0 , space=0 ;
 
 
   for (int i = 0; line[i] != '\0'; ++i)
