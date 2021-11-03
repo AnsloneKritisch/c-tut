@@ -10,9 +10,9 @@ int main()
   printf("Enter the Sentence : ");
   gets(st);
 
-  while (s[c] != '\0')
+  while (st[c] != '\0')
    {
-       if (s[c] == 'a' || s[c] == 'A' || s[c] == 'e' || s[c] == 'E' || s[c] == 'i' || s[c] == 'I' || s[c] =='o' || s[c]=='O' || s[c] == 'u' || s[c] == 'U')
+       if (st[c] == 'a' || st[c] == 'A' || st[c] == 'e' || st[c] == 'E' || st[c] == 'i' || st[c] == 'I' || st[c] =='o' || st[c]=='O' || st[c] == 'u' || st[c] == 'U')
        {
            count++;
            c++;
