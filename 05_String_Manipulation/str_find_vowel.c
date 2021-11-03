@@ -1,11 +1,13 @@
 //WAP to find all the vowels in a sentence.
 
 #include <stdio.h>
+#include <conio.h>
 
 int main()
 {
     char line[100];
     int i , vowels=0, consonant=0 , digit=0 , space=0 ;
+    printf("\n");
 
     printf("Enter a sentence : ");
     gets(line);
@@ -35,11 +37,14 @@ int main()
         
     }
 
+    printf("\n");
     printf("Vowels: %d", vowels);
     printf("\nConsonants: %d", consonant);
     printf("\nDigits: %d", digit);
     printf("\nWhite spaces: %d", space);
-    
+    printf("\n");
+
+    getch();    
     return 0;
 }
 
