@@ -4,6 +4,10 @@
 
 int main()
 {
+    char line[100];
+    int i , vowels , consonant , digit , space ;
+
+
   for (int i = 0; line[i] != '\0'; ++i)
    {
        if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||
