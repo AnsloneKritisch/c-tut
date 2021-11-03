@@ -10,7 +10,6 @@ int main()
     int i , c=0 ;
 
     printf("\n");
-    printf("\n");
 
     printf("Enter a sentence : ");
     gets(st);
@@ -22,11 +21,10 @@ int main()
             c++;
         }
     }
-
     
     printf("\n");
-    printf("\n");
     printf(" The Number of Sentences are = %d ",c+1);
+    printf("\n");
     
     getch();
     return 0;
