@@ -26,8 +26,6 @@ int main()
         {
             printf("Something went wrong+")
         }
-        
-        
 
     }
     
