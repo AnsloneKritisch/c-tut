@@ -14,9 +14,14 @@ int main()
 
     for ( i = 0; st[i]!='\0'; i++)
     {
-
+        if (st[i] == ' ')
+        {
+            c++;
+        }
     }
+
+    printf("%d",c+1);
     
-    
+    getch();
     return 0;
 }
