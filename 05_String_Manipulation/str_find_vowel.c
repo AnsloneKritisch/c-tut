@@ -4,22 +4,33 @@
 
 int main()
 {
-  int c = 0, count = 0;
-  char st[100];
-
-  printf("Enter the Sentence : ");
-  gets(st);
-
-  while (st[c] != '\0')
+  for (int i = 0; line[i] != '\0'; ++i)
    {
-       if (st[c] == 'a' || st[c] == 'A' || st[c] == 'e' || st[c] == 'E' || st[c] == 'i' || st[c] == 'I' || st[c] =='o' || st[c]=='O' || st[c] == 'u' || st[c] == 'U')
+       if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||
+       line[i] == 'o' || line[i] == 'u' || line[i] == 'A' ||
+       line[i] == 'E' || line[i] == 'I' || line[i] == 'O' ||
+       line[i] == 'U')
        {
-           count++;
-           c++;
+           ++vowels;
        }
-   }
+       else if ((line[i] >= 'a' && line[i] <= 'z') || (line[i] >= 'A' && line[i] <= 'Z'))
+        {
+            ++consonant;
+        } 
+        else if (line[i] >= '0' && line[i] <= '9')
+        {
+            ++digit;
+        } 
+        else if (line[i] == ' ')
+        {
+            ++space;
+        }
+    }
 
-  printf("Number of vowels in the string: %d", count);
+    printf("Vowels: %d", vowels);
+    printf("\nConsonants: %d", consonant);
+    printf("\nDigits: %d", digit);
+    printf("\nWhite spaces: %d", space);
 
   return 0;
 }
