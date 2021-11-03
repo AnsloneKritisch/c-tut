@@ -24,14 +24,9 @@ int main()
         }
         else
         {
-            printf("Something went wrong+")
+            printf("Something went wrong");
         }
-
     }
-    
-
-
-
-    
+    getch();   
     return 0;
 }
