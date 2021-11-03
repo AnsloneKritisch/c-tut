@@ -1,4 +1,4 @@
-//WAP to find all the vowels in a sentence.
+//WAP to find all the vowels , consonant , digit and space in a sentence.
 
 #include <stdio.h>
 #include <conio.h>
@@ -33,8 +33,7 @@ int main()
         {
             ++space;
         } 
-        
-        
+    
     }
 
     printf("\n");
