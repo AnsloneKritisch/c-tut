@@ -14,11 +14,11 @@ int main()
     printf("Enter a sentence : ");
     gets(st);
 
-   for(i=0; s[i]!='\0'; i++)
+   for(i=0; st[i]!='\0'; i++)
    {
-      printf("%s", s[i]);
+      printf("%s", st[i]);
 
-      if(s[i]==' ')
+      if(st[i]==' ')
       {
          printf("\n");
       }
