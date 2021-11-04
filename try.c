@@ -13,15 +13,15 @@ int main()
 
     printf("Enter a sentence : ");
     gets(st);
-
-   for(i=0; st[i]!='\0'; i++)
-   {
-       if(st[i]==' ')
-      {
-         printf("\n");
-      }
-      else printf(st[i]);
-   }
+    
+    for(i=0; st[i]!='\0'; i++)
+    {
+        if(st[i]==' ')
+        {
+            printf("\n");
+        }
+        else printf("%s",st[i]);
+    }
     
     getch();
     return 0;
