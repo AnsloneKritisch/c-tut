@@ -16,12 +16,11 @@ int main()
 
    for(i=0; st[i]!='\0'; i++)
    {
-      printf("%s", st[i]);
-
-      if(st[i]==' ')
+       if(st[i]==' ')
       {
          printf("\n");
       }
+      else printf(st[i]);
    }
     
     getch();
