@@ -14,17 +14,15 @@ int main()
     printf("Enter a sentence : ");
     gets(st);
 
-    for ( i = 0; st[i]!='\0'; i++)
-    {
-        if (st[i] == ' ')
-        {
-            c++;
-        }
-    }
-    
-    printf("\n");
-    printf(" The Number of Sentences are = %d ",c+1);
-    printf("\n");
+   for(i=0; s[i]!='\0'; i++)
+   {
+      printf("%s", s[i]);
+
+      if(s[i]==' ')
+      {
+         printf("\n");
+      }
+   }
     
     getch();
     return 0;
