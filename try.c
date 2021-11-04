@@ -20,7 +20,7 @@ int main()
         {
             printf("\n");
         }
-        else printf("%s",st[i]);
+        else printf("%c",st[i]);
     }
     
     getch();
