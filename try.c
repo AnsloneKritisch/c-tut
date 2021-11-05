@@ -1,44 +1,30 @@
-//WAP to split each word into new line.
-/*
-Input : I am Anslone Kritisch
-
-output:
- I
- am
- Anslone
- Kritisch
-
-*/
-
-#include <stdio.h>
-#include <conio.h>
-#include <string.h>
-
-int main()
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+main()
 {
-    char st[100];
-    int i , c=0 ;
+int i,j=0,temp,sum=0,n;
+char str1[100],str2[100]={0};
+printf("Enter a string\n");
+gets(str1);
 
-    printf("\n");
-    
-    printf("Enter a sentence : ");
-    gets(st);
-
-    c=0;
-
-    for(i=0; st[i]!='\0'; i++)
+for(i=0;i<strlen(str1);i++)
+{
+    if(str1[i]>='0'&&str1[i]<='9')
     {
-        if(st[i] >= '0' && st[i] <= '9')
-        {
-            c = c + st[i] ;
-        }
+        str2[j]=str1[i];
+        j++;
     }
     
-    printf("%d",c);
-    
-    printf("\n");
-    printf("\n");
-    
-    getch();
-    return 0;
+}
+temp=atoi(str2);//To convert string to integer
+printf("The digits present in string is %d\n",temp);
+while(temp>0)
+{
+    n=temp%10;
+    sum+=n;
+    temp=temp/10;
+}
+printf("The sum of digits is %d\n",sum);
+
 }
