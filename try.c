@@ -24,6 +24,8 @@ int main()
     printf("Enter a sentence : ");
     gets(st);
 
+    c=0;
+
     for(i=0; st[i]!='\0'; i++)
     {
         if(st[i] >= '0' && st[i] <= '9')
