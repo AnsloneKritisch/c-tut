@@ -20,9 +20,11 @@ int main()
     int i ;
 
     printf("\n");
-
+    
     printf("Enter a sentence : ");
     gets(st);
+
+    printf("\n");    
 
     printf(" Input :- \n %s ",st) ;
     printf(" \n Output :- \n ") ;
