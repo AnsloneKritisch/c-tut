@@ -39,6 +39,10 @@ int main()
         }
         else printf("%c",st[i]);
     }
+
+    printf("\n");
+    printf("\n");
     
+    getch();
     return 0;
 }
