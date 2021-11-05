@@ -24,7 +24,8 @@ int main()
     printf("Enter a sentence : ");
     gets(st);
 
-    printf(" Input :- \n %d ",st) ;
+    printf(" Input :- \n %s ",st) ;
+    printf(" \n Output :- \n ") ;
     for(i=0; st[i]!='\0'; i++)
     {
         if(st[i]==' ')
