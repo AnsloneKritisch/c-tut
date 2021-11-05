@@ -1,30 +1,24 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-main()
-{
-int i,j=0,temp,sum=0,n;
-char str1[100],str2[100]={0};
-printf("Enter a string\n");
-gets(str1);
+#include <stdio.h>
+#include <conio.h>
+#include  <string.h>
 
-for(i=0;i<strlen(str1);i++)
+int main()
 {
-    if(str1[i]>='0'&&str1[i]<='9')
+    char st[100];
+    int i , c = 0 ;
+ 
+    printf("Enter a sentence : ");
+    gets(st);
+
+    for ( i = 0; st[i]!='\0'; i++)
     {
-        str2[j]=str1[i];
-        j++;
+        if (st[i]>='0' && st[i]<='9')
+        {
+            c+=(st[i] -'0');
+        }
+        
     }
+    printf(" %d ",c);
     
-}
-temp=atoi(str2);//To convert string to integer
-printf("The digits present in string is %d\n",temp);
-while(temp>0)
-{
-    n=temp%10;
-    sum+=n;
-    temp=temp/10;
-}
-printf("The sum of digits is %d\n",sum);
-
+    return 0;
 }
