@@ -27,6 +27,9 @@ int main()
     printf("\n");    
 
     printf(" Input :- \n %s ",st) ;
+
+    printf("\n");    
+
     printf(" \n Output :- \n ") ;
     for(i=0; st[i]!='\0'; i++)
     {
