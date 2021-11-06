@@ -1,3 +1,9 @@
+//WAP to add all the numbers in a sentence.
+/*
+Input -> Riya is 12 years old.
+Output -> 3
+*/
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
