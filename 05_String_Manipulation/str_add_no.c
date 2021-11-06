@@ -28,7 +28,8 @@ int main()
 
     printf(" \n ");
 
-    printf(" After adding all the numbers in the sentence \n");
+    printf(" After adding all the numbers in the sentence ");
+    printf(" \n "); 
     printf(" We get : %d ",c);
 
     printf(" \n "); 
