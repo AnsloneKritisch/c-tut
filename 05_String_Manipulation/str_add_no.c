@@ -24,7 +24,7 @@ int main()
         }
         
     }
-    printf(" Adding all the numbers in the sentence \n");
+    printf(" After adding all the numbers in the sentence \n");
     printf(" We get : %d ",c);
     
 
