@@ -13,6 +13,7 @@ int main()
     char st[100];
     int i , c=0 ;
 
+    printf(" \n ");
     printf(" Enter a sentence : ");
     gets(st);
 
@@ -24,9 +25,15 @@ int main()
         }
         
     }
+
+    printf(" \n ");
+
     printf(" After adding all the numbers in the sentence \n");
     printf(" We get : %d ",c);
-    
 
+    printf(" \n "); 
+    printf(" \n ");
+    
+    getch();
     return 0;
 }
