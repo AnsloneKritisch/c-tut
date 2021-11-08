@@ -15,18 +15,12 @@ int main()
     printf(" Enter a sentence : ");
     gets(st);
 
-    for ( i = 0; st[i]!='\0'; i++)
-    {
-        if (st[i]>='0' && st[i]<='9')
-        {
-            d = (st[i]-'0') ;
-            c = d*10 + d ;
-            
-        }
-        
-    }
-    printf("%d",d);
+    a = strlen(st);
 
+    for ( i = a+1 ; i >= 0; i--)
+    {
+        printf("%c",st[i]) ;
+    }
 
     
     return 0;
