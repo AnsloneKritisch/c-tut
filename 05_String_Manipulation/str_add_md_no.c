@@ -17,7 +17,7 @@ int main()
 
     a = strlen(st);
 
-    for ( i = a+1 ; i >= 0; i--)
+    for ( i = a; i >= 0; i--)
     {
         printf("%c",st[i]) ;
     }
