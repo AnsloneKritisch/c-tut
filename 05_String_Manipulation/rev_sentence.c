@@ -1,7 +1,10 @@
 //WAP to reverse a sentence.
+
 /*
+
  Input :  Riya is a good girl.
 Output :  .lrig doog a si ayiR
+
 */
 #include <stdio.h>
 #include <conio.h>
@@ -18,7 +21,8 @@ int main()
     gets(st);
     
     a = strlen(st);
-    
+
+    printf("\n");    
     printf(" After reversing the sentence we get : ");
 
     for ( i = a; i >= 0; i--)
