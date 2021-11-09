@@ -1,4 +1,8 @@
-
+//WAP to reverse a sentence.
+/*
+ Input :  Riya is a good girl.
+Output :  .lrig doog a si ayiR
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
