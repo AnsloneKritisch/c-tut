@@ -5,9 +5,21 @@
 
 int main()
 {
-    char st[100] ;
+    char st1='a' , st2='A' ;
 
+
+    if (isupper(st1))
+    {
+        printf("True \n");
+    }
+    else printf("False\n");
     
+    if (isupper(st2))
+    {
+        printf("True\n");
+    }
+    else printf("False\n");
     
+    getch();    
     return 0;
 }
