@@ -27,7 +27,6 @@ int main()
     printf("\n");    
 
     printf(" Input :- \n %s ",st) ;
-    strrev(st);
 
     printf("\n");    
 
@@ -41,7 +40,6 @@ int main()
         else printf("%c",st[i]);
     }
 
-    printf("\n");
     printf("\n");
     
     getch();
