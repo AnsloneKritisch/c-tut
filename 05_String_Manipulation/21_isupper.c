@@ -1,3 +1,5 @@
+//WAP to check weather an alphabet is upper case or not.
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
