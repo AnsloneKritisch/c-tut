@@ -7,7 +7,7 @@ int main()
 {
     char st = 'a' ;
 
-    tolower(st);
+    toupper(st);
 
     printf("%c",st);
     
