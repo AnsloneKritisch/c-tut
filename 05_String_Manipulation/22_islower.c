@@ -9,15 +9,15 @@ int main()
 
     if (islower(st1))
     {
-        printf("True");
+        printf("True \n");
     }
-    else printf("False");
+    else printf("False \n ");
 
     if (islower(st2))
     {
-        printf("True");
+        printf("True \n");
     }
-    else printf("False");
+    else printf("False \n");
     
     
     getch();
