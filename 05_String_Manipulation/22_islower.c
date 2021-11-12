@@ -1,3 +1,5 @@
+//WAP to check that an alphabet is lower case or not.
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
@@ -18,7 +20,6 @@ int main()
         printf("True \n");
     }
     else printf("False \n");
-    
     
     getch();
     return 0;
