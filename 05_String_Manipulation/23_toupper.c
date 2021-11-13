@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <conio.h>
-#include <string.h>
+// C program to demonstrate
+// example of toupper() function.
 #include <ctype.h>
+#include <stdio.h>
 
 int main()
 {
-    char st = 'a' ;
+	char ch;
 
-    toupper(st);
+	ch = 'g';
+	printf("%c in uppercase is represented as %c",
+		ch, toupper(ch));
 
-    printf("%c",st);
-    
-    return 0;
+	return 0;
 }
