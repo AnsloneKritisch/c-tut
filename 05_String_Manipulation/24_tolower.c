@@ -1,19 +1,4 @@
-#include <stdio.h>
-#include <conio.h>
-#include <string.h>
-#include <ctype.h>
-
-int main()
-{
-    char st = 'a' ;
-
-    tolower(st);
-
-    printf("%c",st);
-    
-    return 0;
-}
-//WAP to illustrate toupper() function.
+//WAP to illustrate tolower() function.
 
 #include <stdio.h>
 #include <conio.h>
