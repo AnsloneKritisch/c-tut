@@ -5,9 +5,7 @@
 
 int main()
 {
-	char ch;
-
-	ch = 'g';
+	char ch = 'a';
 	printf("%c in uppercase is represented as %c",ch,toupper(ch));
 
 	return 0;
