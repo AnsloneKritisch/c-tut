@@ -6,8 +6,9 @@
 
 int main()
 {
-	char ch = 'a';
-	printf("%c in uppercase is represented as %c",ch,toupper(ch));
+	char ch = 'A';
+    printf("\n");
+	printf("%c in uppercase is represented as %c",ch,tolower(ch));
 	printf("\n");
 	getch();
 	return 0;
