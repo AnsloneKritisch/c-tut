@@ -14,9 +14,9 @@ int main()
 
     if (strcmpi(st,pt)==0)
     {
-        printf("Yes ");
+        printf(" Yes %s and %s are same ",st,pt);
     }
-    else printf("No");
+    else printf(" No %s and %s are different ",st,pt);
     
     getch();
     return 0;
