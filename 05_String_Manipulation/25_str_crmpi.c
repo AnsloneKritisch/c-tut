@@ -17,6 +17,8 @@ int main()
         printf(" Yes %s and %s are same ",st,pt);
     }
     else printf(" No %s and %s are different ",st,pt);
+
+    printf("\n");
     
     getch();
     return 0;
