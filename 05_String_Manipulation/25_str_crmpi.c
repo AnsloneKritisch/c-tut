@@ -1,3 +1,5 @@
+//WAP to illustrate strcrmpi() function.
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
