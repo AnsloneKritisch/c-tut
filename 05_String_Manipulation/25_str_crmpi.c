@@ -14,9 +14,9 @@ int main()
 
     if (strcmpi(st,pt)==0)
     {
-        printf("Yes")
+        printf("Yes");
     }
-    else printf("No")
+    else printf("No");
     
     getch();
     return 0;
