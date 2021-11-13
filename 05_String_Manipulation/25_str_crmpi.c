@@ -6,10 +6,10 @@ int main()
 {
     char st[100] , pt[100] ;
 
-    printf("Enter a word : ");
+    printf("Enter a word in Upper case : ");
     gets(st);
 
-    printf("Enter a word : ");
+    printf("Enter a word in Lower case : ");
     gets(pt);
 
     if (strcmpi(st,pt)==0)
