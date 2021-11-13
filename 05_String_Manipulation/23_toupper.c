@@ -1,5 +1,5 @@
-// C program to demonstrate
-// example of toupper() function.
+//WAP to illustrate toupper() function.
+
 #include <stdio.h>
 #include <conio.h>
 #include <ctype.h>
