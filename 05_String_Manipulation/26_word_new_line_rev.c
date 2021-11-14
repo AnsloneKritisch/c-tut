@@ -46,7 +46,7 @@ int main()
                 printf("%s",st[j]);
                 j-- ;
             }
-            b = j ;
+            
         }
     }
 
