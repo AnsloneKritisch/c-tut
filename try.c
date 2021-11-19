@@ -1,24 +1,37 @@
 #include <stdio.h>
 #include <conio.h>
-#include  <string.h>
+#include <string.h>
 
 int main()
 {
-    char st[100];
-    int i , c = 0 ;
- 
-    printf("Enter a sentence : ");
-    gets(st);
+    char st[100] , pt[100] ;
+    int l , w= -1 ;
 
-    for ( i = 0; st[i]!='\0'; i++)
+    printf(" Enter a string : ");
+    gets(st) ;
+
+    for( l = 0; st[l]!='\0'; l++)
     {
-        if (st[i]>='0' && st[i]<='9')
-        {
-            c+=(st[i] -'0');
-        }
-        
+        pt[l] = st[l];
     }
-    printf(" %d ",c);
+    pt[l] = 32 ;
+    pt[l+1] = '\0' ;
+
+    printf("%s",pt);
+
+    for( l = 0; pt[l]!='\0'; l++)
+    {
+        st[++w] = pt[l];
+        if (pt[l]==' ')
+        {
+            st[w] = '\0';
+        }
+        printf("\n %s",st );
+       
+        w = -1 ;
+    }
+    
+    
     
     return 0;
 }
