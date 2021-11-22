@@ -29,7 +29,7 @@ int main()
         if (pt[l]==32)
         {
             lt[++w] = '\0' ;
-            if (strcmpi(lt , a) == 0)
+            if (strcmpi(lt,a)==0)
             {
                 printf("%s",b);
                 w = -1 ;
