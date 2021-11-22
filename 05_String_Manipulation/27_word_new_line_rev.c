@@ -17,7 +17,19 @@ int main()
     pt[l] = 32 ;
     pt[l+1] = '\0' ;
 
-    printf("%s",pt) ;
+    for ( l = 0; pt[l]!='\0'; l++)
+    {
+        lt[++w] = pt[l];
+        if (pt[l] == 32)
+        {
+            lt[++w] = '\0' ;
+            strrev(lt) ;
+            printf("%s\n",lt);
+            w = -1 ;
+        }
+        
+    }
+    
 
     
 
