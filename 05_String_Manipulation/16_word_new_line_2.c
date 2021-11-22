@@ -28,11 +28,7 @@ int main()
     printf("%s",st);
     printf("\n");
     printf("\n");
-    printf("Input :- \n");
-    
-
-
-
+    printf("Output :- \n");
 
     for( l = 0; st[l]!='\0'; l++)
     {
