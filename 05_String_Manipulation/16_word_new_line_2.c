@@ -28,7 +28,7 @@ int main()
     printf("%s",st);
     printf("\n");
     printf("\n");
-    printf("Output :- \n");
+    printf("Output :-");
 
     for( l = 0; st[l]!='\0'; l++)
     {
@@ -47,6 +47,9 @@ int main()
          w=-1;
     }
     }
+    
+    printf("\n");
+    printf("\n");
     
     getch();
     return 0;
