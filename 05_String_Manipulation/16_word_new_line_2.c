@@ -17,8 +17,6 @@ int main()
     pt[l] = 32 ;
     pt[l+1] = '\0' ;
 
-    printf("%s",pt);
-
     for( l = 0; pt[l]!='\0'; l++)
     {
         st[++w] = pt[l];
