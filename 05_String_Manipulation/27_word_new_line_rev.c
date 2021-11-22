@@ -1,58 +1,26 @@
-//WAP to split each word into new line.
-/*
-Input : I am Anslone Kritisch
-
-output:
- I
- am
- Anslone
- Kritisch
-
-*/
-
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
 
 int main()
 {
-    char st[100];
-    int i , j , a , b ;
+    char st[100] , pt[100] , lt[100] ;
+    int l , w = -1 ;
 
-    printf("\n");
-    
-    printf("Enter a sentence : ");
+    printf("Enter a Sentence : ");
     gets(st);
 
-    printf("\n");    
-
-    printf(" Input :- \n %s ",st) ;
-
-    printf("\n");    
-
-    printf(" \n Output :- \n ") ;
-    for(i=0; st[i]!='\0'; i++)
+    for ( l = 0; st[l]!='\0'; l++)
     {
-        if(st[i]==' ')
-        {
-            printf("\n");
-        }
-        else 
-        {
-            j = i ;
-            b = 1 ;
-            while (j<b)
-            {
-                printf("%s",st[j]);
-                j-- ;
-            }
-            
-        }
+        pt[l] = st[l] ;    
     }
+    pt[l] = 32 ;
+    pt[l+1] = '\0' ;
 
-    printf("\n");
-    printf("\n");
+    printf("%s",pt) ;
+
     
+
     getch();
     return 0;
 }
