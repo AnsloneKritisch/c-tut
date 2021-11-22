@@ -1,3 +1,15 @@
+//WAP to split each word into new line.
+/*
+Input : I am Anslone Kritisch
+
+output:
+ I
+ am
+ Anslone
+ Kritisch
+
+*/
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
@@ -9,6 +21,18 @@ int main()
 
     printf(" Enter a string : ");
     gets(st) ;
+
+    printf("\n");
+    printf("\n");
+    printf("Input :- \n");
+    printf("%s",st);
+    printf("\n");
+    printf("\n");
+    printf("Input :- \n");
+    
+
+
+
 
     for( l = 0; st[l]!='\0'; l++)
     {
