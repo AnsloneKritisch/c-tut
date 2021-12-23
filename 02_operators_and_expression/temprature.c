@@ -9,21 +9,21 @@ int main()
     // Conversion fron Centigrade to Farhanite
 
     float con , far ;
-    prinf(" write the temprature = ") ; 
-    scanf("")
+    printf(" write the temprature = ") ; 
+    scanf("%f",&con);
     far = (con * 9) / 5 + 32 ;
     printf( " The temprature in farenhite = %f \n ", far ) ;
     
     getch() ; 
 
-    // Conversion from Farhanite to Centigrade
+ /*   // Conversion from Farhanite to Centigrade
 
     float fara  , cona ;
     prinf("write the temprature = ") ;
     scanf("%f" ,&fara)
     cona = ((fara-32)*5)/9 ;
     printf(" The tempratue in centigrade = %f \n " ,cona ) ;
-
+*/
     getch() ; 
     
     return 0;

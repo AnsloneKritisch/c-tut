@@ -15,6 +15,6 @@ int main()
     printf(" The value of a = %d \n " , a ) ;
     printf(" The value of c = %d \n " , c ) ;
     
-
+    getch();
     return 0;
 }
