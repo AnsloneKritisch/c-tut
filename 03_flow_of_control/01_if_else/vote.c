@@ -14,10 +14,6 @@ int main()
     {
         printf(" You can give vote \n ") ;
     }
-    else if)
-    {
-        /* code */
-    }
     
     else 
     printf(" You cannot give vote \n ") ;
