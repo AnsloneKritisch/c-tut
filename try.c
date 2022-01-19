@@ -1,4 +1,1 @@
- #include <stdio.h>
- #include <conio.h>
-
- 
+variable.c
