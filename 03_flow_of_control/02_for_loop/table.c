@@ -17,7 +17,8 @@ int main()
   {
       for ( j = 1 ; j <= c ; j++)
       {
-          b = i*j ;
+        
+        b = i*j ;
 
           printf(" %d x %d = %d \n ", i , j , b ) ;
 
